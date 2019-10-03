@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>訂餐系統</title>
+    <!-- 連結Bootstrap.min.css -->
+    <link rel="stylesheet" type='text/css' href="assets/css/bootstrap.css" charset="UTF-8">
+    <!-- 使用style.css -->
+    <link rel="stylesheet" type='text/css' href="assets/css/style.css" charset="UTF-8">
+    <!-- 使用 material icons community-->
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.0.96/css/materialdesignicons.min.css"
+        crossorigin="anonymous">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:500,400&display=swap" rel="stylesheet">
+    <!-- 連結Bootstrap所需要的js -->
+    <!-- jquery.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- popper.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap.min.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- 連結網頁主程式 -->
+    <script src="assets/js/main.js"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav id="navbar" class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top alt">
+        <a class="navbar-brand" href="#">訂餐系統</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="btn btn-outline-light px-3" href="./registerpage.html">加入我們</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="./loginpage.html">登入</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- banner -->
+    <div id="banner" class="py-5">
+        <div class="container text-white">
+            <h1 class="display-4">訂餐系統</h1>
+            <p class="lead text-white">找尋身邊美味的食物<br>不費吹灰之力<br>美味食物上手<br>讓找尋美味食物不再困難</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="./registerpage.html" role="button"> 加入我們 </a>
+                <a class="btn btn-secondary btn-lg" href="./loginpage.html"> 登入 </a>
+            </p>
+        </div>
+    </div>
+
+    <!-- 介紹 -->
+    <div id="introduce" class="py-2 text-center container">
+        <div class="row py-3">
+            <div class="col-md-4 col-sm-12 text-center">
+                <span class="mdi mdi-food-fork-drink intro-icon text-primary"></span>
+                <h4>餐點豐富</h4>
+                <p>此系統包含全台灣超過五萬家的小吃店、餐廳，絕對讓你吃不膩。</p>
+            </div>
+            <div class="col-md-4 col-sm-12 text-center">
+                <span class="mdi mdi-face-agent intro-icon text-primary"></span>
+                <h4>服務優質</h4>
+                <p>我們有經過嚴格訓練的客服小姐，給你最愉快的消費體驗。</p>
+            </div>
+            <div class="col-md-4 col-sm-12 text-center">
+                <span class="mdi mdi-ticket intro-icon text-primary"></span>
+                <h4>價格親民</h4>
+                <p>我們已經有和店家談好條件，給你最親民的價格。再加上經常舉辦的優惠活動，讓你荷包不再空。</p>
+            </div>
+            <div class="col-md-4 col-sm-12 text-center">
+                <span class="mdi mdi-map intro-icon text-primary"></span>
+                <h4>送餐範圍廣大</h4>
+                <p>我們有提供全台各縣市的送餐服務，讓你不管身在何處，都有送餐服務。</p>
+            </div>
+            <div class="col-md-4 col-sm-12 text-center">
+                <span class="mdi mdi-truck-fast intro-icon text-primary"></span>
+                <h4>送餐迅速</h4>
+                <p>所有餐點皆保證在烹調完成後半小時內送到。</p>
+            </div>
+            <div class="col-md-4 col-sm-12 text-center">
+                <span class="mdi mdi-dots-horizontal-circle intro-icon text-primary"></span>
+                <h4>還有更多</h4>
+                <p>等待你來挖掘 !</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 賣家 -->
+    <div class="bg-info px-3 py-4">
+        <div class="row px-md-5">
+            <div class="container col-md-9 text-white text-left">
+                <h2>你是賣家 ?</h2>
+                <p>立即加入我們 !</p>
+            </div>
+            <div class="container col-md-3 text-right btn-seller">
+                <a href="sellerpage.html" class="btn btn-outline-light btn-lg btn-block">參與合作</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 送貨 -->
+    <div class="bg-success px-3 py-4">
+        <div class="row px-md-5">
+            <div class="container col-md-9 text-white text-left">
+                <h2>還是想當外送員 ?</h2>
+                <p>我們有最好的福利 ! 立即加入我們 !</p>
+            </div>
+            <div class="container col-md-3 text-right btn-seller">
+                <a href="deliverpage.html" class="btn btn-outline-light btn-lg btn-block">申請加入</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="bg-dark px-3 py-4 text-center">
+        <a href="#" class="text-white footer-a">回到頂端</a>
+        <p class="text-white sub-descrp"></p>
+        <a href="https://github.com/roywatermelon11370/" class="text-white footer-a">© Royhuang-ckhs20928</a>
+        <p class="text-white sub-descrp">
+            <br>Please use Chrome, Firefox, Safari instead of IE for better experience.<br>
+            All the information above is fake.
+        </p>
+    </footer>
+</body>
+
+</html>

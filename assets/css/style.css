@@ -1,0 +1,110 @@
+*, p, .btn, .lead  {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 500;
+} 
+
+.icon-array {
+    display: flex;
+}
+
+.btn {
+    transition: all .2s ease-in-out;
+}
+
+.btn:hover {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.01);
+    transition: all .2s ease-in-out
+}
+
+/* navbar */
+#navbar {
+    transition: all .3s ease-in-out;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+#navbar.alt {
+    transform: translate(0,-135px);
+    transition: all .35s ease-in-out;
+}
+
+/* banner */
+#banner {
+    background-image: url(./../images/banner.jpg);
+    min-height: 75vh;
+    background-size: cover;
+    display: grid;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#banner .container {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    align-self: center;
+}
+
+/* intro */
+.intro-icon {
+    font-size: 50px;
+    padding: 5px;
+}
+
+/* seller */
+.btn-seller {
+    margin-top: 20px;
+}
+
+/* footer */
+.sub-descrp {
+    opacity: 0.5;
+}
+
+.footer-a {
+    opacity: 0.5;
+}
+
+.footer-a:hover {
+    opacity: 1;
+}
+
+
+/* form */
+.bg {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-blur {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.form-bg {
+    height: 100vh;
+    display: grid;
+    position: relative;
+    justify-content: space-around;
+}
+
+.form-card {
+    width: 95vw;
+    max-width: 400px;
+    height: auto;
+    border-radius: .15rem;
+    box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.25);
+    padding:30px;
+    margin: 20px;
+    display: grid;
+    align-self: center;
+    position: relative;
+}

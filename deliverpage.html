@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>訂餐系統-登入</title>
+    <!-- 連結Bootstrap.min.css -->
+    <link rel="stylesheet" type='text/css' href="assets/css/bootstrap.css" charset="UTF-8">
+    <!-- 使用style.css -->
+    <link rel="stylesheet" type='text/css' href="assets/css/style.css" charset="UTF-8">
+    <!-- 使用 material icons community-->
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.0.96/css/materialdesignicons.min.css"
+        crossorigin="anonymous">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:500,400&display=swap" rel="stylesheet">
+    <!-- 連結Bootstrap所需要的js -->
+    <!-- jquery.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- popper.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap.min.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- 連結網頁主程式 -->
+    <script src="assets/js/main.js"></script>
+</head>
+
+<body class="bg-blur">
+    <div class="form-bg">
+        <div class="form-card bg-light text-center">
+            <div>
+                <h2 class="text-dark">外送員帳號註冊</h2>
+                <p>歡迎加入外送員的大家庭</p>
+            </div>
+            <form name="login" method="post" action="login.php" class="text-left">
+                    <p>
+                        <label for="account">帳號</label>
+                        <input name="account" id="account" type="text" class="form-control">
+                    </p>
+                    <p>
+                        <label for="password">密碼</label>
+                        <input name="password" id="password" type="password" class="form-control">
+                    </p>
+                    <p>
+                        <label for="passwordagain">再次輸入密碼</label>
+                        <input name="passwordagain" id="passwordagain" type="password" class="form-control">
+                    </p>
+                    <div class="custom-control custom-checkbox">
+                        <input name="rememberme" type="checkbox" id="rememberme" class="custom-control-input" value="true"
+                            checked>
+                        <label class="custom-control-label" for="rememberme">記住我的帳號密碼</label>
+                    </div><br>
+                    <button type="submit" class="btn btn-primary btn-block">註冊</button>
+                </form>
+        </div>
+    </div>
+</body>
