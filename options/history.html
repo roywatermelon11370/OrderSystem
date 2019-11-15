@@ -31,8 +31,8 @@
 </head>
 
 <body class="bg-light">
-    <nav id="navbar" class="navbar navbar-expand-sm navbar-dark bg-secondary fixed-top">
-        <a class="navbar-brand" href="#">訂餐系統</a>
+    <nav id="navbar-normal" class="navbar navbar-expand-sm navbar-dark bg-secondary sticky-top">
+        <a class="navbar-brand" href="">訂餐系統</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -40,32 +40,107 @@
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                        <a class="nav-link px-3" href="main.html"><span class="mdi mdi-home-outline"></span> 首頁</a>
+                    <a class="nav-link px-3" href="main.html"><span class="mdi mdi-home-outline"></span> 首頁</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-3" href="profile.html"><span class="mdi mdi-shape-outline"></span> 餐點種類</span></a>
+                    <a class="nav-link px-3" href="profile.html"><span class="mdi mdi-shape-outline"></span>
+                        餐點種類</span></a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link px-3" href="cart.html"><span class="mdi mdi-cart-outline"></span> 購物車</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link px-3" href="profile.html"><span class="mdi mdi-account-circle-outline"></span> 個人資料 <span class="mdi mdi-chevron-down"></span></a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link px-3" data-toggle="dropdown" href="#"><span
+                            class="mdi mdi-account-circle-outline"></span> 個人資料 <span
+                            class="mdi mdi-chevron-down"></span></a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">
+                            <div class="drop-profile-area">
+                                <img src="../assets/images/royhuang/profile.png" alt="">
+                                <div class="drop-profile-area-text">
+                                    <h6>Roy Huang</h6>
+                                    <p class="text-secondary text-small">royhuang111</p>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">購物歷史</a>
+                        <a class="dropdown-item" href="#">設定</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item text-danger" href="#">登出</a>
+                    </div>
                 </li>
             </ul>
         </div>
     </nav>
 
     <!-- title -->
-    <div class="jumbotron my-5 bg-primary text-white">
-        <div class="container text-center">
-            <h1 class="display-4">購物歷史</h1>
+    <div class="jumbotron bg-secondary header">
+        <div class="container text-center text-light">
+            <h1>購物歷史</h1>
         </div>
     </div>
 
-    <!-- list -->
-    <div id="history-list" classs="container">
-
+    <!-- navs -->
+    <div class="navbar navbar-light bg-light fixed-bottom">
+        <div class="container justify-content-between">
+            <a class="nav-link text-secondary" href="#"><span class="mdi mdi-arrow-up-circle-outline"></span></a>
+            <div class="nav">
+                <li class="nav-item dropup">
+                    <a class="nav-link" data-toggle="dropdown" href="#"><span
+                            class="mdi mdi-sort"></span> 排序 <span
+                            class="mdi mdi-chevron-up"></span></a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">從舊到新</a>
+                        <a class="dropdown-item" href="#">從新到舊</a>
+                    </div>
+                </li>
+                <a class="nav-link text-danger" href="#"><span class="mdi mdi-trash-can-outline"></span> 刪除紀錄</a>
+            </div>
+        </div>
     </div>
+
+    <div class="container">
+        <!-- list -->
+        <div id="history-list">
+            <div class="list-group mt-3 mb-5">
+                <a class="list-group-item flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">原住民燒烤店的啦</h5>
+                    </div>
+                    <p class="mb-1">炒山豬肉*1.35、燒烤鵪鶉*2 | 共125元</p>
+                    <small>2008年9月17日 16:35</small>
+                </a>
+                <a class="list-group-item flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">林家乾麵</h5>
+                    </div>
+                    <p class="mb-1">乾麵(小碗)*2、蛋包魚丸湯*1 | 共85元</p>
+                    <p class="text-warning"><samp class="mdi mdi-sale"></samp> 使用折價券 (滿60元折抵10元)</p>
+                    <small>2019年12月25日 18:50</small>
+                </a>
+                <a class="list-group-item flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">75義大利湯麵</h5>
+                    </div>
+                    <p class="mb-1">白醬奶油培根(直麵)*2 | 共150元</p>
+                    <small>2019年12月5日 12:40</small>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="bg-light px-3 py-4 mb-5 text-center">
+        <p class="text-dark sub-descrp"></p>
+        <a href="https://github.com/roywatermelon11370/" class="text-dark footer-a">© Royhuang-ckhs20928</a>
+        <p class="text-dark sub-descrp">
+            <br>Please use Chrome, Firefox, Safari instead of Internet Explorer for better experience.<br>
+            All the infor mation above is fake.<br>
+            Photos are taken from unsplash.com .
+        </p>
+    </footer>
+
 </body>

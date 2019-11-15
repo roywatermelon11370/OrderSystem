@@ -8,10 +8,10 @@
 $white:    #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
-$gray-300: #dee2e6 !default;
+$gray-300: #ddd !default;
 $gray-400: #ced4da !default;
 $gray-500: #adb5bd !default;
-$gray-600: #6c757d !default;
+$gray-600: #868e96 !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
@@ -34,16 +34,16 @@ $grays: map-merge(
   $grays
 );
 
-$blue:    #2196f3 !default;
-$indigo:  #3f51b5 !default;
-$purple:  #9c27b0 !default;
-$pink:    #e91e63 !default;
-$red:     #f44336 !default;
-$orange:  #ff9800 !default;
-$yellow:  #ffc107 !default;
-$green:   #4caf50 !default;
-$teal:    #009688 !default;
-$cyan:    #00bcd4 !default;
+$blue:    #4582EC !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #d9534f !default;
+$orange:  #fd7e14 !default;
+$yellow:  #f0ad4e !default;
+$green:   #02B875 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
 
 $colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -229,12 +229,12 @@ $grid-gutter-width:           30px !default;
 $line-height-lg:              1.5 !default;
 $line-height-sm:              1.5 !default;
 
-$border-width:                1px !default;
+$border-width:                1.75px !default;
 $border-color:                $gray-300 !default;
 
-$border-radius:               .15rem !default;
-$border-radius-lg:            .12rem !default;
-$border-radius-sm:            .17rem !default;
+$border-radius:               .3rem !default;
+$border-radius-lg:            .28rem !default;
+$border-radius-sm:            .32rem !default;
 
 $rounded-pill:                50rem !default;
 
