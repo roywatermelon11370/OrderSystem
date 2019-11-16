@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>訂餐系統-登入</title>
     <!-- 連結Bootstrap.min.css -->
-    <link rel="stylesheet" type='text/css' href="assets/css/bootstrap.css" charset="UTF-8">
+    <link rel="stylesheet" type='text/css' href="../assets/css/bootstrap.css" charset="UTF-8">
     <!-- 使用style.css -->
-    <link rel="stylesheet" type='text/css' href="assets/css/style.css" charset="UTF-8">
+    <link rel="stylesheet" type='text/css' href="../assets/css/style.css" charset="UTF-8">
     <!-- 使用 material icons community-->
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.0.96/css/materialdesignicons.min.css"
         crossorigin="anonymous">
@@ -27,17 +27,17 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <!-- 連結網頁主程式 -->
-    <script src="assets/js/main.js"></script>
+    <script src="../assets/js/main.js"></script>
 </head>
 
-<body class="bg-blur">
+<body class="bg">
     <div class="form-bg">
         <div class="form-card bg-light text-center">
             <div>
                 <h2 class="text-dark">登入</h2>
                 <p>歡迎使用</p>
             </div>
-            <form name="login" method="post" action="login.php" class="text-left">
+            <form name="login" method="post" action="login.php" class="text-left py-2">
                 <p>
                     <label for="account">帳號</label>
                     <input name="account" id="account" type="text" class="form-control">
@@ -52,6 +52,23 @@
                 </div><br>
                 <button type="submit" class="btn btn-primary btn-block">登入</button>
             </form>
+            <p class="text-dark">沒有帳號? <a href="registerpage.html">註冊</a></p>
         </div>
     </div>
+    <?php 
+  //資料庫連線設定
+  $db_host = "localhost";
+  $db_table = "users";
+  $db_username = "root";
+  $db_password = "12345678";
+  //設定資料連線
+  if(!@mysql_connect($db_host, $db_username, $db_password))
+    die("資料連結失敗！");
+  //連接資料庫
+  if(!@mysql_select_db($db_table))
+    die("資料庫選擇失敗！");
+  //設定字元集與連線校對
+  mysql_query("SET NAMES 'utf8'");
+?>
+
 </body>

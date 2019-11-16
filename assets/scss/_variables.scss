@@ -60,6 +60,7 @@ $colors: map-merge(
     "teal":       $teal,
     "cyan":       $cyan,
     "white":      $white,
+    "gray-light": $gray-200,
     "gray":       $gray-600,
     "gray-dark":  $gray-800
   ),
@@ -73,6 +74,7 @@ $info:          $purple !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
+$semil:         $gray-200;
 $dark:          $gray-800 !default;
 
 $theme-colors: () !default;
@@ -86,6 +88,7 @@ $theme-colors: map-merge(
     "warning":    $warning,
     "danger":     $danger,
     "light":      $light,
+    "semil":      $semil,
     "dark":       $dark
   ),
   $theme-colors
@@ -107,7 +110,7 @@ $yiq-text-light:            $white !default;
 // Quickly modify global styling by enabling or disabling optional features.
 
 $enable-caret:                                true !default;
-$enable-rounded:                              true !default;
+$enable-rounded:                              false !default;
 $enable-shadows:                              false !default;
 $enable-gradients:                            false !default;
 $enable-transitions:                          true !default;
@@ -249,7 +252,7 @@ $caret-width:                 .3em !default;
 $caret-vertical-align:        $caret-width * .85 !default;
 $caret-spacing:               $caret-width * .85 !default;
 
-$transition-base:             all .2s ease-in-out !default;
+$transition-base:             all .2s cubic-bezier(0,.7,.44,.99) !default;
 $transition-fade:             opacity .15s linear !default;
 $transition-collapse:         height .35s ease !default;
 
@@ -380,8 +383,8 @@ $table-border-level:          -6 !default;
 //
 // Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
 
-$input-btn-padding-y:         .375rem !default;
-$input-btn-padding-x:         .75rem !default;
+$input-btn-padding-y:         .35rem !default;
+$input-btn-padding-x:         1.25rem !default;
 $input-btn-font-family:       null !default;
 $input-btn-font-size:         $font-size-base !default;
 $input-btn-line-height:       $line-height-base !default;
@@ -390,13 +393,13 @@ $input-btn-focus-width:       .1rem !default;
 $input-btn-focus-color:       rgba($component-active-bg, .25) !default;
 $input-btn-focus-box-shadow:  0 0 0 $input-btn-focus-width $input-btn-focus-color !default;
 
-$input-btn-padding-y-sm:      .25rem !default;
-$input-btn-padding-x-sm:      .5rem !default;
+$input-btn-padding-y-sm:      .45rem !default;
+$input-btn-padding-x-sm:      .75rem !default;
 $input-btn-font-size-sm:      $font-size-sm !default;
 $input-btn-line-height-sm:    $line-height-sm !default;
 
-$input-btn-padding-y-lg:      .5rem !default;
-$input-btn-padding-x-lg:      1rem !default;
+$input-btn-padding-y-lg:      .6rem !default;
+$input-btn-padding-x-lg:      1.25rem !default;
 $input-btn-font-size-lg:      $font-size-lg !default;
 $input-btn-line-height-lg:    $line-height-lg !default;
 
