@@ -1,6 +1,6 @@
 ﻿<?php 
   //資料庫連線設定
-  $db_host = "localhost";
+  $db_host = "127.0.0.1";
   $db_table = "users";
   $db_username = "root";
   $db_password = "12345678";

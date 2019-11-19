@@ -32,31 +32,32 @@
 
 <body class="bg">
     <div class="form-bg">
-        <div class="form-card bg-light text-center">
+        <div class="form-card rounded bg-white">
             <div>
-                <h2 class="text-dark">外送員帳號註冊</h2>
+                <h3 class="text-dark">外送員帳號註冊</h3>
                 <p>歡迎加入外送員的大家庭</p>
             </div>
-            <form name="login" method="post" action="login.php" class="text-left">
-                    <p>
-                        <label for="account">帳號</label>
-                        <input name="account" id="account" type="text" class="form-control">
-                    </p>
-                    <p>
-                        <label for="password">密碼</label>
-                        <input name="password" id="password" type="password" class="form-control">
-                    </p>
-                    <p>
-                        <label for="passwordagain">再次輸入密碼</label>
-                        <input name="passwordagain" id="passwordagain" type="password" class="form-control">
-                    </p>
-                    <div class="custom-control custom-checkbox">
-                        <input name="rememberme" type="checkbox" id="rememberme" class="custom-control-input" value="true"
-                            checked>
-                        <label class="custom-control-label" for="rememberme">記住我的帳號密碼</label>
-                    </div><br>
-                    <button type="submit" class="btn btn-primary btn-block">註冊</button>
-                </form>
+            <form name="login" method="post" action="login.php" class="text-left py-2">
+                <p class="d-flex">
+                    <span class="mdi mdi-account-circle text-secondary form-icon"></span>
+                    <input name="account" id="account" type="text" class="form-control" placeholder="帳號">
+                </p>
+                <p class="d-flex">
+                    <span class="mdi mdi-key text-secondary form-icon"></span>
+                    <input name="password" id="password" type="password" class="form-control" placeholder="密碼">
+                </p>
+                <p class="d-flex">
+                    <span class="mdi mdi-key-plus text-secondary form-icon"></span>
+                    <input name="passwordagain" id="passwordagain" type="password" class="form-control"
+                        placeholder="確認密碼">
+                </p>
+                <div class="custom-control custom-checkbox">
+                    <input name="rememberme" type="checkbox" id="rememberme" class="custom-control-input" value="true"
+                        checked>
+                    <label class="custom-control-label" for="rememberme">記住我的帳號密碼</label>
+                </div><br>
+                <button type="submit" class="btn btn-primary btn-block">註冊</button>
+            </form>
         </div>
     </div>
 </body>
