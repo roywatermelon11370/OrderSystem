@@ -169,7 +169,7 @@ h1, h2, h3, h4 {
 }
 .more-intro-card:hover {
     transform: translate(0,-5px);
-    box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
     transition: all .3s ease-out;
 }
 
@@ -210,7 +210,7 @@ h1, h2, h3, h4 {
     width: 90vw;
     max-width: 400px;
     height: auto;
-    box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
     padding:30px;
     margin: 20px;
     display: grid;
@@ -222,7 +222,7 @@ h1, h2, h3, h4 {
     width: 90vw;
     max-width: 500px;
     height: auto;
-    box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
     padding:30px;
     margin: 20px;
     display: grid;
@@ -253,6 +253,6 @@ h1, h2, h3, h4 {
 }
 
 .general-bg {
-    box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
 }
 
