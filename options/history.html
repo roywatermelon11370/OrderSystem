@@ -31,7 +31,7 @@
 </head>
 
 <body class="bg-light">
-    <nav id="navbar-normal" class="navbar navbar-expand-sm navbar-dark bg-secondary sticky-top">
+    <nav id="navbar-normal" class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
         <a class="navbar-brand" href="">訂餐系統</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,7 +55,7 @@
                     <a class="nav-link px-3" data-toggle="dropdown" href="#"><span
                             class="mdi mdi-account-circle-outline"></span> 個人資料 <span
                             class="mdi mdi-chevron-down"></span></a>
-                    <div class="dropdown-menu dropdown-menu-right">
+                    <div class="dropdown-menu dropdown-menu-right borderless">
                         <a class="dropdown-item" href="#">
                             <div class="drop-profile-area">
                                 <img src="../assets/images/royhuang/profile.png" alt="">
@@ -76,60 +76,53 @@
         </div>
     </nav>
 
-    <!-- title -->
-    <div class="jumbotron bg-secondary header">
-        <div class="container text-center text-light">
-            <h1>購物歷史</h1>
-        </div>
-    </div>
-
-    <!-- navs -->
-    <div class="navbar navbar-light bg-light fixed-bottom">
-        <div class="container justify-content-between">
-            <a class="nav-link text-secondary" href="#"><span class="mdi mdi-arrow-up-circle-outline"></span></a>
-            <div class="nav">
-                <li class="nav-item dropup">
-                    <a class="nav-link" data-toggle="dropdown" href="#"><span
-                            class="mdi mdi-sort"></span> 排序 <span
-                            class="mdi mdi-chevron-up"></span></a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="#">從舊到新</a>
-                        <a class="dropdown-item" href="#">從新到舊</a>
-                    </div>
-                </li>
-                <a class="nav-link text-danger" href="#"><span class="mdi mdi-trash-can-outline"></span> 刪除紀錄</a>
-            </div>
-        </div>
-    </div>
-
     <div class="container">
-        <!-- list -->
-        <div id="history-list">
-            <div class="list-group mt-3 mb-5">
-                <a class="list-group-item flex-column align-items-start">
-                    <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">原住民燒烤店的啦</h5>
-                    </div>
-                    <p class="mb-1">炒山豬肉*1.35、燒烤鵪鶉*2 | 共125元</p>
-                    <small>2008年9月17日 16:35</small>
-                </a>
-                <a class="list-group-item flex-column align-items-start">
-                    <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">林家乾麵</h5>
-                    </div>
-                    <p class="mb-1">乾麵(小碗)*2、蛋包魚丸湯*1 | 共85元</p>
-                    <p class="text-warning"><samp class="mdi mdi-sale"></samp> 使用折價券 (滿60元折抵10元)</p>
-                    <small>2019年12月25日 18:50</small>
-                </a>
-                <a class="list-group-item flex-column align-items-start">
-                    <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">75義大利湯麵</h5>
-                    </div>
-                    <p class="mb-1">白醬奶油培根(直麵)*2 | 共150元</p>
-                    <small>2019年12月5日 12:40</small>
-                </a>
+        <h1 class="my-5 general-title">購餐歷史</h1>
+
+        <div class="row my-3">
+            <!-- options -->
+            <div class="col-md-3 col-sm-12">
+                <ul class="list-group list-group-flush bg-transparent text-secondary">
+                    <a class="list-group-item list-group-item-action list-group-item-light borderless"><span
+                            class="mdi mdi-magnify"></span> 搜尋 (尚未開放)</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light borderless"><span
+                            class="mdi mdi-delete-outline"></span> 清除紀錄</a>
+                </ul>
+            </div>
+
+            <!-- list -->
+            <div class="col-md-9 col-sm-12 p-3">
+                <ul class="list-group list-group-flush borderless general-bg rounded">
+                    <li class="list-group-item">
+                        <h5>大高乾拌麵</h5>
+                        <p>貢丸湯*1 乾拌麵*1 | 共90元</p>
+                        <p class="text-secondary">2017年4月9日 17:22</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h5>大高乾拌麵</h5>
+                        <p>貢丸湯*1 乾拌麵*1 | 共90元</p>
+                        <p class="text-secondary">2017年4月9日 17:22</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h5>大高乾拌麵</h5>
+                        <p>貢丸湯*1 乾拌麵*1 | 共90元</p>
+                        <p class="text-secondary">2017年4月9日 17:22</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h5>大高乾拌麵</h5>
+                        <p>貢丸湯*1 乾拌麵*1 | 共90元</p>
+                        <p class="text-secondary">2017年4月9日 17:22</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h5>大高乾拌麵</h5>
+                        <p>貢丸湯*1 乾拌麵*1 | 共90元</p>
+                        <p class="text-secondary">2017年4月9日 17:22</p>
+                    </li>
+                </ul>
             </div>
         </div>
+
+
     </div>
 
     <!-- footer -->

@@ -9,8 +9,16 @@ h1, h2, h3, h4 {
     letter-spacing: 7px;
 } 
 
-.dropdown {
-    z-index: 7122;
+.borderless {
+    border: 0;
+}
+
+.bg-transparent {
+    background: transparent;
+}
+
+.dropdown-menu {
+    box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.1);
 }
 
 .icon-array {
@@ -199,7 +207,7 @@ h1, h2, h3, h4 {
 }
 
 .form-card {
-    width: 95vw;
+    width: 90vw;
     max-width: 400px;
     height: auto;
     box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.25);
@@ -210,23 +218,41 @@ h1, h2, h3, h4 {
     position: relative;
 }
 
-.form-icon {
-    line-height: 1.5;
-    margin-right: .5em;
-    font-size: 1.5rem;
-}
-
-/* history */
-#nav-btns {
-    border-radius: .15rem;
-}
-
-.list-group.item {
+.form-card-lg {
+    width: 90vw;
+    max-width: 500px;
+    height: auto;
+    box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.25);
+    padding:30px;
+    margin: 20px;
+    display: grid;
+    align-self: center;
     position: relative;
 }
 
-.history-delete-btn {
-    position: absolute;
-    top: 1em;
-    right: 1em;
+.form-icon {
+    line-height: 1.9em;
+    margin-right: .5em;
+    font-size: 1.5em;
 }
+
+/* general page */
+.general-title {
+    position: relative;
+}
+
+.general-title:after {
+    content: "";
+    position: absolute;
+    background: #20c997;
+    height: .15em;
+    width: 1.25em;
+    left: 0;
+    bottom: -.5em;
+    z-index: 1;
+}
+
+.general-bg {
+    box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.1);
+}
+
