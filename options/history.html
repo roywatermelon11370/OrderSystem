@@ -31,7 +31,7 @@
 </head>
 
 <body class="bg-light">
-    <nav id="navbar-normal" class="navbar navbar-expand-sm navbar-light bg-light">
+    <nav id="navbar-normal" class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
         <a class="navbar-brand" href="">訂餐系統</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,10 +41,6 @@
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                     <a class="nav-link px-3" href="main.html"><span class="mdi mdi-home-outline"></span> 首頁</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link px-3" href="profile.html"><span class="mdi mdi-shape-outline"></span>
-                        餐點種類</span></a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
@@ -81,19 +77,16 @@
 
         <div class="row my-3">
             <!-- options -->
-            <div class="col-md-3 col-sm-12">
-                <ul class="list-group list-group-flush bg-transparent sticky-top text-dark">
-                    <a class="list-group-item list-group-item-action list-group-item-light borderless"><span
-                            class="mdi mdi-magnify"></span> 搜尋 (尚未開放)</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light borderless"><span
-                            class="mdi mdi-sort"></span> 排序 (尚未開放)</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light borderless"><span
-                            class="mdi mdi-delete-outline"></span> 清除紀錄</a>
-                </ul>
-            </div>
+            <ul class="col-md-2 col-sm-12 nav flex-column">
+                <div class="sticky-top pt-2" style="top: 4em;">
+                    <a class="nav-link text-secondary" href="#"><span class="mdi mdi-magnify"></span> 搜尋</a>
+                    <a class="nav-link text-secondary" href="#"><span class="mdi mdi-sort"></span> 排序</a>
+                    <a class="nav-link text-secondary" href="#"><span class="mdi mdi-delete-outline"></span> 刪除紀錄</a>
+                </div>
+            </ul>
 
             <!-- list -->
-            <div class="col-md-9 col-sm-12 p-3">
+            <div class="col-md-10 col-sm-12 p-3">
                 <ul class="list-group list-group-flush borderless general-bg rounded">
                     <li class="list-group-item">
                         <h5>大高乾拌麵</h5>
@@ -128,14 +121,9 @@
     </div>
 
     <!-- footer -->
-    <footer class="bg-light px-3 py-4 mb-5 text-center">
-        <p class="text-dark sub-descrp"></p>
-        <a href="https://github.com/roywatermelon11370/" class="text-dark footer-a">© Royhuang-ckhs20928</a>
-        <p class="text-dark sub-descrp">
-            <br>Please use Chrome, Firefox, Safari instead of Internet Explorer for better experience.<br>
-            All the infor mation above is fake.<br>
-            Photos are taken from unsplash.com .
-        </p>
+    <footer class="bg-dark py-3 text-center">
+        <a href="#" class="btn btn-tree btn-sm my-3"><span class="mdi mdi-arrow-up"></span> 回到頁首</a><br>
+        <a href="https://github.com/roywatermelon11370/" class="text-white footer-a">© Royhuang-ckhs20928</a>
     </footer>
 
 </body>

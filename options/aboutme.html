@@ -31,7 +31,7 @@
 </head>
 
 <body class="bg-light">
-    <nav id="navbar-normal" class="navbar navbar-expand-sm navbar-light bg-light">
+    <nav id="navbar-normal" class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
         <a class="navbar-brand" href="">訂餐系統</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,12 +75,11 @@
                     <p class="text-secondary">version: 0.1 beta (測試版)</p>
                     <a href="https://github.com/roywatermelon11370/OrderSystem" class="btn btn-dark mr-2"
                         target="_blank"><span class="mdi mdi-github-circle"></span> See repository</a>
-                    <a href="https://github.com/roywatermelon11370/OrderSystem" class="btn btn-tree mr-2"
-                        target="_blank"><span class="mdi mdi-arrow-up-bold"></span> 檢查更新</a>
                 </div>
             </div>
             <hr>
-            <h5 class="text-center pt-3">This system was developed by the following tools and languages.</h5>
+            <h5 class="text-center pt-3 text-secondary">This system was developed with following frameworks and
+                languages.</h5>
             <div class="row text-center">
                 <div class="col-md-3 col-sm-6 my-4">
                     <span class="mdi mdi-bootstrap intro-icon text-tree"></span>
@@ -111,11 +110,18 @@
                     <p class="h5">MySQL</p>
                 </div>
                 <div class="col-md-3 col-sm-12 my-4">
-                    <span class="mdi mdi-heart intro-icon text-shy"></span>
+                    <span class="mdi mdi-heart intro-icon text-danger heartbeat"></span>
                     <p class="h5">網管的熱情</p>
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="bg-dark py-3 text-center">
+        <a href="#" class="btn btn-tree btn-sm my-3"><span class="mdi mdi-arrow-up"></span> 回到頁首</a><br>
+        <a href="https://github.com/roywatermelon11370/" class="text-white footer-a">© Royhuang-ckhs20928</a>
+    </footer>
 </body>
 
 </html>
