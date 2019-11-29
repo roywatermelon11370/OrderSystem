@@ -149,18 +149,45 @@ h1, h2, h3, h4 {
     align-self: center;
 }
 
+.btn-see-more {
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    padding: 0.875rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translate(-50%,0);
+    transition: all .3s ease-out;
+    animation: btn-scroll 1.5s;
+}
+
 @keyframes btn-scroll {
     0% {
-        transform: translate(-50%,130px);
+        transform: translate(-50%,5rem);
     }
 
     66.67% {
-        transform: translate(-50%,130px);
+        transform: translate(-50%,5rem);
     }
 
     100% {
         transform: translate(-50%,0);
     }
+}
+
+
+
+.btn-see-more:hover {
+    background: white;
+    color: black;
+    transition: all .3s ease-out;
 }
 /* header */
 .header {

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>購餐歷史</title>
+    <title>訂餐系統 - 偏好設定</title>
     <!-- 連結Bootstrap.min.css -->
     <link rel="stylesheet" type='text/css' href="../assets/css/bootstrap.css" charset="UTF-8">
     <!-- 使用style.css -->
@@ -72,58 +72,38 @@
         </div>
     </nav>
 
-    <div class="container">
-        <h1 class="my-5 general-title">購餐歷史</h1>
-
-        <div class="row my-3">
-            <!-- options -->
-            <ul class="col-md-3 col-sm-12 nav flex-column">
-                <div class="sticky-top pt-2" style="top: 4em;">
-                    <a class="nav-link text-secondary" href="#"><span class="mdi mdi-magnify"></span> 搜尋</a>
-                    <a class="nav-link text-secondary" href="#"><span class="mdi mdi-sort"></span> 排序</a>
-                    <a class="nav-link text-secondary" href="#"><span class="mdi mdi-delete-outline"></span> 刪除紀錄</a>
+    <div class="container p-2">
+        <div class="row">
+            <div class="col-3">
+                <div class="nav flex-column nav-pills sticky-top" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="top: 4.5rem;">
+                    <P class="text-dark h6 pb-2 pl-2">偏好設定</P>
+                    <a class="nav-link active" id="v-pills-profile-tab" data-toggle="pill" href="#l-profile" role="tab"
+                        aria-controls="v-pills-profile" aria-selected="true"><span class="mdi mdi-account-circle"></span>
+                        個人資料</a>
+                    <a class="nav-link" id="v-pills-history-tab" data-toggle="pill" href="#l-history" role="tab"
+                        aria-controls="v-pills-history" aria-selected="false"><span
+                            class="mdi mdi-clock-outline"></span> 購餐歷史</a>
+                    <a class="nav-link" id="v-pills-edit-tab" data-toggle="pill" href="#l-edit" role="tab"
+                        aria-controls="v-pills-edit" aria-selected="false"><span class="mdi mdi-pencil"></span>
+                        編輯個人資料</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="false">Settings</a>
                 </div>
-            </ul>
-
-            <!-- list -->
-            <div class="col-md-9 col-sm-12 p-3">
-                <ul class="list-group list-group-flush borderless general-bg rounded">
-                    <li class="list-group-item">
-                        <h5>大高乾拌麵</h5>
-                        <p>貢丸湯*1 乾拌麵*1 | 共90元</p>
-                        <p class="text-secondary">2017年4月9日 17:22</p>
-                    </li>
-                    <li class="list-group-item">
-                        <h5>大高乾拌麵</h5>
-                        <p>貢丸湯*1 乾拌麵*1 | 共90元</p>
-                        <p class="text-secondary">2017年4月9日 17:22</p>
-                    </li>
-                    <li class="list-group-item">
-                        <h5>大高乾拌麵</h5>
-                        <p>貢丸湯*1 乾拌麵*1 | 共90元</p>
-                        <p class="text-secondary">2017年4月9日 17:22</p>
-                    </li>
-                    <li class="list-group-item">
-                        <h5>大高乾拌麵</h5>
-                        <p>貢丸湯*1 乾拌麵*1 | 共90元</p>
-                        <p class="text-secondary">2017年4月9日 17:22</p>
-                    </li>
-                    <li class="list-group-item">
-                        <h5>大高乾拌麵</h5>
-                        <p>貢丸湯*1 乾拌麵*1 | 共90元</p>
-                        <p class="text-secondary">2017年4月9日 17:22</p>
-                    </li>
-                </ul>
+            </div>
+            <div class="col-9">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="l-profile" role="tabpanel"
+                        aria-labelledby="v-pills-profile-tab">
+                        <?php require_once("profile.html"); ?>
+                    </div>
+                    <div class="tab-pane fade" id="l-history" role="tabpanel" aria-labelledby="v-pills-history-tab">...
+                    </div>
+                    <div class="tab-pane fade" id="l-edit" role="tabpanel"
+                        aria-labelledby="v-pills-edit-tab">...</div>
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                        aria-labelledby="v-pills-settings-tab">...</div>
+                </div>
             </div>
         </div>
-
-
     </div>
-
-    <!-- footer -->
-    <footer class="bg-dark py-3 text-center">
-        <a href="#" class="btn btn-tree btn-sm my-3"><span class="mdi mdi-arrow-up"></span> 回到頁首</a><br>
-        <a href="https://github.com/roywatermelon11370/" class="text-white footer-a">© Royhuang-ckhs20928</a>
-    </footer>
-
 </body>
