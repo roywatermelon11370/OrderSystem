@@ -5,16 +5,28 @@
 
 h1, h2, h3, h4 {
     font-family: 'Noto Sans TC', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 7px;
 } 
+
+h5, h6 {
+    font-weight: 700;;
+}
 
 .borderless {
     border: 0;
 }
 
+.d-grid {
+    display: grid;
+}
+
+.full-height {
+    min-height: 90vh;
+}
+
 .nav-shadow {
-    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
     transition: all .3s ease-out;
 }
 
@@ -24,10 +36,6 @@ h1, h2, h3, h4 {
 
 .dropdown-menu {
     box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
-}
-
-.icon-array {
-    display: flex;
 }
 
 .fw-wrap {
@@ -78,6 +86,21 @@ h1, h2, h3, h4 {
     100% {
         font-size: 45px;
     }
+}
+
+.btn-float {
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    padding: 0.875rem;
+    border-radius: 50%;
+    box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    position: sticky;
+    bottom: 1rem;
+    right: 1rem;
 }
 /* navbar */
 #navbar {
@@ -207,7 +230,7 @@ h1, h2, h3, h4 {
 }
 .more-intro-card:hover {
     transform: translate(0,-5px);
-    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.1);
     transition: all .3s ease-out;
 }
 
@@ -248,7 +271,7 @@ h1, h2, h3, h4 {
     width: 90vw;
     max-width: 400px;
     height: auto;
-    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.1);
     padding:30px;
     margin: 20px;
     display: grid;
@@ -260,7 +283,7 @@ h1, h2, h3, h4 {
     width: 90vw;
     max-width: 500px;
     height: auto;
-    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.1);
     padding:30px;
     margin: 20px;
     display: grid;
@@ -291,6 +314,30 @@ h1, h2, h3, h4 {
 }
 
 .general-bg {
-    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.1);
 }
 
+.profile-grid {
+    display: grid;
+    grid-gap: .75rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(12rem, auto);
+}
+@media (max-width: 576px) {
+    .profile-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.profile-card-1 {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+
+.profile-card-2 {
+    grid-column: 2 / span 3;
+}
+
+.profile-img {
+    width: 100%;
+}
