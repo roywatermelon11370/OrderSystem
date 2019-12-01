@@ -15,54 +15,55 @@
   
 </div>
 <div class="p-3">
-  <div class="bg-white general-bg rounded pt-3">
-    <div class="pl-3 pr-3">
-      <p class="h6">大高乾拌麵</p>
-      <p>150元</p>
-      <p class="text-secondary">5月8日 18:45</p>
-    </div>
-    <hr>
+  <div class="bg-white general-bg rounded">
+    <div class="list-group">
+      <div class="list-group-item">
+        <p class="h5">大高乾拌麵</p>
+        <p class="mb-1">$190</p>
+        <p class="text-secondary mb-0">2019年8月7日 17:22</p>
+      </div>
 
-    <div class="pl-3 pr-3">
-      <p class="h6">大高乾拌麵</p>
-      <p>150元</p>
-      <p class="text-secondary">5月8日 18:45</p>
-    </div>
-    <hr>
+      <div class="list-group-item">
+        <p class="h5">大高乾拌麵</p>
+        <p class="mb-1">$190</p>
+        <p class="text-secondary mb-0">2019年8月7日 17:22</p>
+      </div>
 
-    <div class="pl-3 pr-3">
-      <p class="h6">大高乾拌麵</p>
-      <p>150元</p>
-      <p class="text-secondary">5月8日 18:45</p>
-    </div>
-    <hr>
+      <div class="list-group-item">
+        <p class="h5">大高乾拌麵</p>
+        <p class="mb-1">$190</p>
+        <p class="text-secondary mb-0">2019年8月7日 17:22</p>
+      </div>
 
-    <div class="pl-3 pr-3">
-      <p class="h6">大高乾拌麵</p>
-      <p>150元</p>
-      <p class="text-secondary">5月8日 18:45</p>
-    </div>
-    <hr>
+      <div class="list-group-item">
+        <p class="h5">大高乾拌麵</p>
+        <p class="mb-1">$190</p>
+        <p class="text-secondary mb-0">2019年8月7日 17:22</p>
+      </div>
 
-    <div class="pl-3 pr-3">
-      <p class="h6">大高乾拌麵</p>
-      <p>150元</p>
-      <p class="text-secondary">5月8日 18:45</p>
-    </div>
-    <hr>
+      <div class="list-group-item">
+        <p class="h5">大高乾拌麵</p>
+        <p class="mb-1">$190</p>
+        <p class="text-secondary mb-0">2019年8月7日 17:22</p>
+      </div>
 
-    <div class="pl-3 pr-3">
-      <p class="h6">大高乾拌麵</p>
-      <p>150元</p>
-      <p class="text-secondary">5月8日 18:45</p>
-    </div>
-    <hr>
+      <div class="list-group-item">
+        <p class="h5">大高乾拌麵</p>
+        <p class="mb-1">$190</p>
+        <p class="text-secondary mb-0">2019年8月7日 17:22</p>
+      </div>
 
-    <div class="pl-3 pr-3">
-      <p class="h6">大高乾拌麵</p>
-      <p>150元</p>
-      <p class="text-secondary">5月8日 18:45</p>
+      <div class="list-group-item">
+        <p class="h5">大高乾拌麵</p>
+        <p class="mb-1">$190</p>
+        <p class="text-secondary mb-0">2019年8月7日 17:22</p>
+      </div>
+
+      <div class="list-group-item">
+        <p class="h5">大高乾拌麵</p>
+        <p class="mb-1">$190</p>
+        <p class="text-secondary mb-0">2019年8月7日 17:22</p>
+      </div>
     </div>
-    <hr>
   </div>
 </div>

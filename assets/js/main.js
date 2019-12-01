@@ -1,6 +1,6 @@
-$(document).ready(function(){ 
-	$(window).on('scroll', function() {
-        if($(window).scrollTop()) {
+$(document).ready(function () {
+    $(window).on('scroll', function () {
+        if ($(window).scrollTop()) {
             $('#navbar').removeClass('alt');
             $('#navbar-normal').removeClass('bg-light');
             $('#navbar-normal').addClass('bg-white');
@@ -14,5 +14,12 @@ $(document).ready(function(){
         }
     })
 
-    $()
+    $('#back-to-top').click(function () {
+        let target = $(this).attr('href');
+        let position = $(target).offset().top;
+        $('html,body').animate({
+            scrollTop: position
+        }, 300, 'swing');
+    });
+
 });

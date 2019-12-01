@@ -13,8 +13,12 @@ h5, h6 {
     font-weight: 700;;
 }
 
-.borderless {
+.list-group, .list-group-item {
     border: 0;
+}
+
+.list-group-item:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);;
 }
 
 .d-grid {
@@ -22,7 +26,7 @@ h5, h6 {
 }
 
 .full-height {
-    min-height: 90vh;
+    min-height: calc(100vh - 57px);
 }
 
 .nav-shadow {
@@ -36,6 +40,7 @@ h5, h6 {
 
 .dropdown-menu {
     box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+    border: 0;
 }
 
 .fw-wrap {
@@ -298,6 +303,11 @@ h5, h6 {
     display: inline-flex;
 }
 
+.form-text {
+    display: flex;
+    align-content: center;
+    height: calc(1.5em + 1rem + 3px);
+}
 /* general page */
 .general-title {
     position: relative;
@@ -347,8 +357,8 @@ h5, h6 {
         grid-template-columns: 1fr;
     }
 
-    .profile-card-1 {
-
+    .profile-card-1, .profile-card-2, .profile-card-3, .profile-card-4 {
+        grid-column: 1;
     }
 }
 

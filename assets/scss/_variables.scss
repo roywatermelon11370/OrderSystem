@@ -396,9 +396,10 @@ $input-btn-font-family:       null !default;
 $input-btn-font-size:         $font-size-base !default;
 $input-btn-line-height:       $line-height-base !default;
 
-$input-btn-focus-width:       .2rem !default;
+$input-btn-focus-width:       .1rem !default;
 $input-btn-focus-color:       rgba($component-active-bg, .25) !default;
-$input-btn-focus-box-shadow:  0 0 0 $input-btn-focus-width $input-btn-focus-color !default;
+$input-btn-focus-box-shadow:  transparent !default;
+// $input-btn-focus-box-shadow:  0 0 0 $input-btn-focus-width $input-btn-focus-color !default;
 
 $input-btn-padding-y-sm:      .3rem !default;
 $input-btn-padding-x-sm:      .5rem !default;
@@ -536,7 +537,7 @@ $custom-control-indicator-bg:           $input-bg !default;
 
 $custom-control-indicator-bg-size:      50% 50% !default;
 $custom-control-indicator-box-shadow:   $input-box-shadow !default;
-$custom-control-indicator-border-color: $gray-500 !default;
+$custom-control-indicator-border-color: $gray-200 !default;
 $custom-control-indicator-border-width: $input-border-width !default;
 
 $custom-control-label-color:            null !default;
