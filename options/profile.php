@@ -4,9 +4,7 @@
   </div>
   <div>
     <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#"><span class="mdi mdi-pencil"></span> 編輯個人資料</a>
-      </li>
+      
     </ul>
   </div>
 </div>
@@ -23,7 +21,10 @@
                 </p>
             </div>
         </div>
-        <div class="profile-card-2 bg-white rounded general-bg"></div>
-        <div class="profile-card-2 bg-white rounded general-bg"></div>
+        <div class="profile-card-2 bg-white rounded general-bg p-3">
+
+        </div>
+        <div class="profile-card-3 bg-success rounded general-bg"></div>
+        <div class="profile-card-4 bg-info rounded general-bg"></div>
     </div>
 </div>

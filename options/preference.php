@@ -44,7 +44,9 @@
                     <div class="tab-pane fade" id="l-history" role="tabpanel" aria-labelledby="v-pills-history-tab">
                         <?php require_once("history.php"); ?>
                     </div>
-                    <div class="tab-pane fade" id="l-edit" role="tabpanel" aria-labelledby="v-pills-edit-tab">...</div>
+                    <div class="tab-pane fade" id="l-edit" role="tabpanel" aria-labelledby="v-pills-edit-tab">
+                        <?php require_once("edit.php") ?>
+                    </div>
                     <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
                         aria-labelledby="v-pills-settings-tab">...</div>
                 </div>
