@@ -17,7 +17,7 @@
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link px-3" href="main.html"><span class="mdi mdi-home-outline"></span> 首頁</a>
+                    <a class="nav-link px-3" href="../dishes/main.php"><span class="mdi mdi-home-outline"></span> 首頁</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
@@ -38,9 +38,7 @@
                                 </div>
                             </div>
                         </a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">購物歷史</a>
-                        <a class="dropdown-item" href="#">設定</a>
+                        <a class="dropdown-item" href="#">控制台</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item text-danger" href="#">登出</a>
                     </div>

@@ -6,7 +6,7 @@
 h1, h2, h3, h4 {
     font-family: 'Noto Sans TC', sans-serif;
     font-weight: 700;
-    letter-spacing: 7px;
+    letter-spacing: .25em;
 } 
 
 h5, h6 {
@@ -30,7 +30,7 @@ h5, h6 {
 }
 
 .nav-shadow {
-    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.1);
     transition: all .3s ease-out;
 }
 
@@ -108,7 +108,7 @@ h5, h6 {
     right: 1rem;
 }
 /* navbar */
-#navbar {
+#navbar, .navbar {
     transition: all .3s ease-in-out;
 }
 
@@ -325,7 +325,7 @@ h5, h6 {
 }
 
 .general-bg {
-    box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
 }
 
 .profile-grid {

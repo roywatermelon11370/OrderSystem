@@ -1,6 +1,6 @@
 <div class="mx-3 d-flex pt-1 justify-content-between">
   <div>
-    <h5 class="text-dark pt-2">購餐歷史</h5>
+    <h4 class="text-dark pt-2">購餐歷史</h4>
   </div>
   <div>
     <ul class="nav">

@@ -1,6 +1,6 @@
 <div class="mx-3 d-flex pt-1 justify-content-between">
   <div>
-    <h5 class="pt-2">個人資料</h5>
+    <h4 class="pt-2">個人資料</h4>
   </div>
   <div>
     <ul class="nav">
@@ -26,7 +26,7 @@
           <p>
             地址: 新北市板橋區大觀路 <br>
             電話: 0987654321 <br>
-            
+
           </p>
         </div>
         <div class="profile-card-3 bg-success rounded general-bg p-3 text-white">

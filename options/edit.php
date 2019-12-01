@@ -1,6 +1,6 @@
 <div class="mx-3 d-flex pt-1 justify-content-between">
     <div>
-        <h5 class="pt-2">編輯個人資料</h5>
+        <h4 class="pt-2">編輯個人資料</h4>
     </div>
     <div>
         <ul class="nav">
