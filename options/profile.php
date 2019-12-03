@@ -1,4 +1,4 @@
-<div class="mx-3 d-flex pt-1 justify-content-between">
+<div class="mx-3 dashboard-actionbar pt-1 ">
   <div>
     <h4 class="pt-2">個人資料</h4>
   </div>
@@ -11,7 +11,7 @@
 
 <div class="p-3">
     <div class="profile-grid">
-        <div class="profile-card-1 bg-white rounded general-bg p-3">
+        <div class="profile-card-1 bg-white rounded card-bg p-3">
             <img src="../assets/images/royhuang/profile.png" alt="" class="bg-dark profile-img rounded">
             <div class="pt-3">
                 <h5>royhuang</h5>
@@ -21,7 +21,7 @@
                 </p>
             </div>
         </div>
-        <div class="profile-card-2 bg-white rounded general-bg p-3 text-secondary">
+        <div class="profile-card-2 bg-white rounded card-bg p-3 text-secondary">
           <p><span class="mdi mdi-information"></span> 更多資料</p>
           <p>
             地址: 新北市板橋區大觀路 <br>
@@ -29,12 +29,12 @@
 
           </p>
         </div>
-        <div class="profile-card-3 bg-success rounded general-bg p-3 text-white">
+        <div class="profile-card-3 bg-success rounded card-bg p-3 text-white">
           <p><span class="mdi mdi-clock-outline"></span> 購餐紀錄</p>
           <p class="h1">$678</p>
           <p class="sub-descrp">你總共訂購過10次，共花了$678</p>
         </div>
-        <div class="profile-card-4 bg-warning rounded general-bg p-3 text-white">
+        <div class="profile-card-4 bg-info rounded card-bg p-3 text-white">
           <p><span class="mdi mdi-ticket-percent"></span> 優惠券</p>
           <p class="h1">尚未開放</p>
           <p class="sub-descrp">敬請期待</p>

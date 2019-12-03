@@ -29,4 +29,7 @@ $(document).ready(function () {
         }, 600, $.bez([0.07, 0.66, 0.27, 0.99]));
     });
 
+    $('#service').click(function(){
+        $('#service2').text("服務條款是什麼，能吃嗎?");
+    })
 });

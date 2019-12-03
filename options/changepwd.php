@@ -10,7 +10,7 @@
     <div class="form-bg">
         <div class="form-card rounded bg-white">
             <div>
-                <h3 class="text-dark pb-2">修改密碼</h3>
+                <h3 class="text-dark decor-title-primary mb-4">修改密碼</h3>
             </div>
             <form name="changepwd" method="post" action="changepwd-action.php" class="text-left py-2">
                 <p class="d-flex">

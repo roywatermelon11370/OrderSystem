@@ -1,4 +1,4 @@
-<div class="mx-3 d-flex pt-1 justify-content-between">
+<div class="mx-3 dashboard-actionbar pt-1">
   <div>
     <h4 class="text-dark pt-2">購餐歷史</h4>
   </div>
@@ -15,7 +15,7 @@
   
 </div>
 <div class="p-3">
-  <div class="bg-white general-bg rounded">
+  <div class="bg-white card-bg rounded">
     <div class="list-group">
       <div class="list-group-item">
         <p class="h5">大高乾拌麵</p>

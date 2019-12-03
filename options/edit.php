@@ -1,4 +1,4 @@
-<div class="mx-3 d-flex pt-1 justify-content-between">
+<div class="mx-3 dashboard-actionbar pt-1">
     <div>
         <h4 class="pt-2">編輯個人資料</h4>
     </div>
@@ -12,12 +12,12 @@
 </div>
 
 <div class="p-3">
-    <div class="bg-white general-bg rounded p-4">
+    <div class="bg-white card-bg rounded p-4">
         <form name="login" method="post" action="login.php" class="text-left">
             <div class="row py-2">
                 <div class="col-md-2 form-text text-secondary">
                     <span class="mdi mdi-face"> &nbsp;&nbsp;</span> 姓名
-                    <p class="text-danger">*</p>
+                    <p class="text-primary">*</p>
                 </div>
                 <div class="col-md-10 col-sm-12">
                     <input type="text" class="form-control" id="formGroupExampleInput">
@@ -26,7 +26,7 @@
             <div class="row py-2">
                 <div class="col-md-2 form-text text-secondary">
                     <span class="mdi mdi-email-open"> &nbsp;&nbsp;</span> Email
-                    <p class="text-danger">*</p>
+                    <p class="text-primary">*</p>
                 </div>
                 <div class="col-md-10 col-sm-12">
                     <input type="text" class="form-control" id="formGroupExampleInput">

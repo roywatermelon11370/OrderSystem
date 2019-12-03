@@ -35,7 +35,7 @@ $grays: map-merge(
 );
 
 $blue:    #3498DB !default;
-$indigo:  #85929E !default;
+$indigo:  #5D6D7E !default;
 $purple:  #8E44AD !default;
 $pink:    #e83e8c !default;
 $red:     #E74C3C !default;
@@ -67,12 +67,12 @@ $colors: map-merge(
   $colors
 );
 
-$primary:       $blue !default;
+$primary:       $red !default;
 $secondary:     $indigo !default;
 $success:       $green !default;
-$info:          $cyan !default;
+$info:          $blue !default;
 $warning:       $yellow !default;
-$danger:        $red !default;
+$danger:        $purple !default;
 $tree:          $teal;
 $light:         $gray-200 !default;
 $dark:          $gray-800 !default;
@@ -477,7 +477,7 @@ $input-padding-x-lg:                    $input-btn-padding-x-lg !default;
 $input-font-size-lg:                    $input-btn-font-size-lg !default;
 $input-line-height-lg:                  $input-btn-line-height-lg !default;
 
-$input-bg:                              $gray-200 !default;
+$input-bg:                              rgba($gray-300, 0.4) !default;
 $input-disabled-bg:                     $gray-300 !default;
 
 $input-color:                           $gray-700 !default;
@@ -495,7 +495,7 @@ $input-focus-color:                     $input-color !default;
 $input-focus-width:                     $input-btn-focus-width !default;
 $input-focus-box-shadow:                $input-btn-focus-box-shadow !default;
 
-$input-placeholder-color:               $gray-600 !default;
+$input-placeholder-color:               rgba($body-color, .5) !default;
 $input-plaintext-color:                 $body-color !default;
 
 $input-height-border:                   $input-border-width * 2 !default;
@@ -537,7 +537,7 @@ $custom-control-indicator-bg:           $input-bg !default;
 
 $custom-control-indicator-bg-size:      50% 50% !default;
 $custom-control-indicator-box-shadow:   $input-box-shadow !default;
-$custom-control-indicator-border-color: $gray-200 !default;
+$custom-control-indicator-border-color: $gray-100;
 $custom-control-indicator-border-width: $input-border-width !default;
 
 $custom-control-label-color:            null !default;

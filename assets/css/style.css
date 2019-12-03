@@ -1,16 +1,16 @@
 *, p, .btn, .lead  {
     font-family: 'Noto Sans TC', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 h1, h2, h3, h4 {
     font-family: 'Noto Sans TC', sans-serif;
-    font-weight: 700;
     letter-spacing: .25em;
-} 
+    font-weight: 500;
+}
 
-h5, h6 {
-    font-weight: 700;;
+.bold {
+    font-weight: 700;
 }
 
 .list-group, .list-group-item {
@@ -93,20 +93,36 @@ h5, h6 {
     }
 }
 
-.btn-float {
-    width: 3rem;
-    height: 3rem;
-    text-align: center;
-    font-size: 1.25rem;
-    line-height: 1.25rem;
-    padding: 0.875rem;
-    border-radius: 50%;
-    box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.1);
-    z-index: 100;
-    position: sticky;
-    bottom: 1rem;
-    right: 1rem;
+.decor-title-tree {
+    position: relative;
 }
+
+.decor-title-tree:after {
+    content: "";
+    position: absolute;
+    background: #20c997;
+    height: .15em;
+    width: 1.25em;
+    left: 0;
+    bottom: -.5em;
+    z-index: 1;
+}
+
+.decor-title-primary {
+    position: relative;
+}
+
+.decor-title-primary:after {
+    content: "";
+    position: absolute;
+    background: #E67E22;
+    height: .15em;
+    width: 1.25em;
+    left: 0;
+    bottom: -.5em;
+    z-index: 1;
+}
+
 /* navbar */
 #navbar, .navbar {
     transition: all .3s ease-in-out;
@@ -175,6 +191,11 @@ h5, h6 {
     z-index: 2;
     display: grid;
     align-self: center;
+}
+
+.big-title {
+    font-family: 'Noto Serif TC', serif;
+    font-weight: 600;
 }
 
 .btn-see-more {
@@ -296,6 +317,21 @@ h5, h6 {
     position: relative;
 }
 
+.decor-title-primary {
+    position: relative;
+}
+
+.decor-title-primary:after {
+    content: "";
+    position: absolute;
+    background: #E74C3C;
+    height: .15em;
+    width: 1.25em;
+    left: 0;
+    bottom: -.5em;
+    z-index: 1;
+}
+
 .form-icon {
     line-height: 1.9em;
     margin-right: .5em;
@@ -308,24 +344,16 @@ h5, h6 {
     align-content: center;
     height: calc(1.5em + 1rem + 3px);
 }
-/* general page */
-.general-title {
-    position: relative;
-}
+/* dashboard */
 
-.general-title:after {
-    content: "";
-    position: absolute;
-    background: #20c997;
-    height: .15em;
-    width: 1.25em;
-    left: 0;
-    bottom: -.5em;
-    z-index: 1;
-}
-
-.general-bg {
+.card-bg {
     box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-actionbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .profile-grid {
