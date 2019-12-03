@@ -11,7 +11,7 @@ $(document).ready(function () {
             $('#navbar-normal').addClass('bg-light');
         }
 
-        if($(window).scrollTop() > $('#banner').outerHeight()) {
+        if($(window).scrollTop() >= $('#banner').outerHeight() - $('.navbar').outerHeight()) {
             $('#navbar').addClass('bg-primary')
             $('#navbar').addClass('nav-shadow')
         }
@@ -23,10 +23,10 @@ $(document).ready(function () {
 
     $('#NavBtn').click(function () {
         let target = $(this).attr('href');
-        let position = $(target).offset().top;
+        let position = $(target).offset().top - $('.navbar').outerHeight();
         $('html,body').animate({
             scrollTop: position
-        }, 600, $.bez([0.07, 0.66, 0.27, 0.99]));
+        }, 600, $.bez([0.07, 0.66, 0.25, 1]));
     });
 
     $('#service').click(function(){
