@@ -26,7 +26,7 @@ $(document).ready(function () {
         let position = $(target).offset().top - $('.navbar').outerHeight();
         $('html,body').animate({
             scrollTop: position
-        }, 600, $.bez([0.07, 0.66, 0.25, 1]));
+        }, 600, $.bez([0, 0.98, 0.58, 1]));
     });
 
     $('#service').click(function(){

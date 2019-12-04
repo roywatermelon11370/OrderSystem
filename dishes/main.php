@@ -2,7 +2,7 @@
 <html lang="zh-tw">
 
 <head>
-  <title>購餐歷史</title>
+  <title>訂餐系統</title>
   <?php require_once("../head.html"); ?>
 </head>
 

@@ -17,7 +17,7 @@
             <div class="row py-2">
                 <div class="col-md-2 form-text text-secondary">
                     <span class="mdi mdi-face"> &nbsp;&nbsp;</span> 姓名
-                    <p class="text-primary">*</p>
+                    <p class="text-danger">*</p>
                 </div>
                 <div class="col-md-10 col-sm-12">
                     <input type="text" class="form-control" id="formGroupExampleInput">
@@ -26,7 +26,7 @@
             <div class="row py-2">
                 <div class="col-md-2 form-text text-secondary">
                     <span class="mdi mdi-email-open"> &nbsp;&nbsp;</span> Email
-                    <p class="text-primary">*</p>
+                    <p class="text-danger">*</p>
                 </div>
                 <div class="col-md-10 col-sm-12">
                     <input type="text" class="form-control" id="formGroupExampleInput">

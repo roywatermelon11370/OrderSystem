@@ -13,7 +13,7 @@
   <p class="text-secondary">通知</p>
   <div class="list-group card-bg rounded">
     <a class="list-group-item list-group-item-action">
-      <p class="h6">顯示通知</p>
+      <p class="h6">通知設定</p>
       <p class="text-secondary mb-0">顯示最新優惠通知</p>
     </a>
   </div>

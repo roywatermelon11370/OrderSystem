@@ -93,14 +93,14 @@ h1, h2, h3, h4 {
     }
 }
 
-.decor-title-tree {
+.decor-title-info {
     position: relative;
 }
 
-.decor-title-tree:after {
+.decor-title-info:after {
     content: "";
     position: absolute;
-    background: #20c997;
+    background: var(--info);
     height: .15em;
     width: 1.25em;
     left: 0;
@@ -115,7 +115,7 @@ h1, h2, h3, h4 {
 .decor-title-primary:after {
     content: "";
     position: absolute;
-    background: #E67E22;
+    background: var(--primary);
     height: .15em;
     width: 1.25em;
     left: 0;
@@ -298,7 +298,7 @@ h1, h2, h3, h4 {
     max-width: 400px;
     height: auto;
     box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.1);
-    padding:30px;
+    padding: 25px;
     margin: 20px;
     display: grid;
     align-self: center;
@@ -315,21 +315,6 @@ h1, h2, h3, h4 {
     display: grid;
     align-self: center;
     position: relative;
-}
-
-.decor-title-primary {
-    position: relative;
-}
-
-.decor-title-primary:after {
-    content: "";
-    position: absolute;
-    background: #E74C3C;
-    height: .15em;
-    width: 1.25em;
-    left: 0;
-    bottom: -.5em;
-    z-index: 1;
 }
 
 .form-icon {
