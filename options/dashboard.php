@@ -8,7 +8,7 @@
 
 <body id="body" class="bg-light">
 
-<nav id="navbar-secondary" class="navbar navbar-expand-sm navbar-dark bg-secondary nav-shadow sticky-top">
+<nav id="navbar-l" class="navbar navbar-expand-sm navbar-light bg-white nav-shadow sticky-top">
         <a class="navbar-brand" href="">訂餐系統</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,7 +47,7 @@
         </div>
     </nav>
     
-    <div class="container p-2">
+    <div class="p-2 px-3">
         <div class="row">
             <div class="col-md-3 col-sm-12">
 
@@ -75,7 +75,7 @@
                 </div>
 
             </div>
-            <div class="col-md-9 col-sm-12">
+            <div class="col-md-8 col-sm-12">
                 <div class="tab-content full-height" id="v-pills-tabContent">
                     <div class="tab-pane fade show active" id="l-profile" role="tabpanel"
                         aria-labelledby="v-pills-profile-tab">

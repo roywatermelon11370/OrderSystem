@@ -101,7 +101,7 @@ sup {
   top: -.5em; }
 
 a {
-  color: #1ABC9C;
+  color: #1abc9c;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
@@ -233,6 +233,9 @@ legend {
   line-height: inherit;
   color: inherit;
   white-space: normal; }
+  @media (max-width: 1200px) {
+    legend {
+      font-size: calc(1.275rem + 0.3vw) ; } }
 
 progress {
   vertical-align: baseline; }

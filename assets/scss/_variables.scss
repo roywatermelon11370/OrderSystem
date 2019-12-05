@@ -34,16 +34,16 @@ $grays: map-merge(
   $grays
 );
 
-$blue:    #3498DB !default;
-$indigo:  #5D6D7E !default;
-$purple:  #8E44AD !default;
+$blue:    #2C3E50 !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
 $red:     #E74C3C !default;
-$orange:  #E67E22 !default;
-$yellow:  #F1C40F !default;
-$green:   #27AE60 !default;
-$teal:    #1ABC9C !default;
-$cyan:    #5DADE2 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #F39C12 !default;
+$green:   #2ecc71 !default;
+$teal:    #1abc9c !default;
+$cyan:    #3498DB !default;
 
 
 $colors: () !default;
@@ -68,13 +68,14 @@ $colors: map-merge(
 );
 
 $primary:       $teal !default;
-$secondary:     $indigo !default;
+$secondary:     $gray-600 !default;
 $success:       $green !default;
-$info:          $blue !default;
+$info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-200 !default;
-$dark:          $gray-800 !default;
+$dark:          $gray-700 !default;
+
 
 $theme-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -124,7 +125,7 @@ $enable-hover-media-query:                    false !default; // Deprecated, no 
 $enable-grid-classes:                         true !default;
 $enable-pointer-cursor-for-buttons:           true !default;
 $enable-print-styles:                         true !default;
-$enable-responsive-font-sizes:                false !default;
+$enable-responsive-font-sizes:                true !default;
 $enable-validation-icons:                     true !default;
 $enable-deprecation-messages:                 true !default;
 
@@ -241,9 +242,9 @@ $line-height-sm:              1.5 !default;
 $border-width:                1.5px !default;
 $border-color:                $gray-300 !default;
 
-$border-radius:               .2rem !default;
-$border-radius-lg:            .25rem !default;
-$border-radius-sm:            .15rem !default;
+$border-radius:               .25rem !default;
+$border-radius-lg:            .3rem !default;
+$border-radius-sm:            .2rem !default;
 
 $rounded-pill:                50rem !default;
 

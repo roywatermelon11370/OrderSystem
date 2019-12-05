@@ -1,12 +1,11 @@
 *, p, .btn, .lead  {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-weight: 300;
+    font-family: 'Rubik', 'Noto Sans TC', sans-serif;
+    font-weight: 400;
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Rubik', 'Noto Sans TC', sans-serif;
     letter-spacing: .25em;
-    font-weight: 500;
 }
 
 .bold {
@@ -30,7 +29,7 @@ h1, h2, h3, h4 {
 }
 
 .nav-shadow {
-    box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     transition: all .3s ease-out;
 }
 
@@ -76,7 +75,7 @@ h1, h2, h3, h4 {
 
 @keyframes heartbeat {
     0% {
-        font-size: 45px;
+        font-size: 35px;
     }
 
     20% {
@@ -85,11 +84,11 @@ h1, h2, h3, h4 {
     }
 
     40% {
-        font-size: 45px;
+        font-size: 35px;
     }
 
     100% {
-        font-size: 45px;
+        font-size: 35px;
     }
 }
 
@@ -101,7 +100,7 @@ h1, h2, h3, h4 {
     content: "";
     position: absolute;
     background: var(--info);
-    height: .15em;
+    height: .125em;
     width: 1.25em;
     left: 0;
     bottom: -.5em;
@@ -116,7 +115,7 @@ h1, h2, h3, h4 {
     content: "";
     position: absolute;
     background: var(--primary);
-    height: .15em;
+    height: .125em;
     width: 1.25em;
     left: 0;
     bottom: -.5em;
@@ -193,11 +192,6 @@ h1, h2, h3, h4 {
     align-self: center;
 }
 
-.big-title {
-    font-family: 'Noto Serif TC', serif;
-    font-weight: 600;
-}
-
 .btn-see-more {
     width: 3rem;
     height: 3rem;
@@ -245,8 +239,8 @@ h1, h2, h3, h4 {
 
 /* intro */
 .intro-icon {
-    font-size: 45px;
-    padding: 5px;
+    font-size: 35px;
+    padding: 10px;
 }
 
 /* more-intro */
@@ -332,7 +326,8 @@ h1, h2, h3, h4 {
 /* dashboard */
 
 .card-bg {
-    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1); */
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .dashboard-actionbar {

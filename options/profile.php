@@ -31,7 +31,7 @@
         </div>
         <div class="profile-card-3 bg-warning rounded card-bg p-3 text-white">
           <p><span class="mdi mdi-clock-outline"></span> 購餐紀錄</p>
-          <p class="h1">$678</p>
+          <p class="h1">$ 678</p>
           <p class="sub-descrp">你總共訂購過10次，共花了$678</p>
         </div>
         <div class="profile-card-4 bg-info rounded card-bg p-3 text-white">
