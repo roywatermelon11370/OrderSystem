@@ -12,6 +12,11 @@ h1, h2, h3, h4 {
     font-weight: 700;
 }
 
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .list-group, .list-group-item {
     border: 0;
 }
@@ -115,6 +120,21 @@ h1, h2, h3, h4 {
     content: "";
     position: absolute;
     background: var(--primary);
+    height: .125em;
+    width: 1.25em;
+    left: 0;
+    bottom: -.5em;
+    z-index: 1;
+}
+
+.decor-title-white {
+    position: relative;
+}
+
+.decor-title-white:after {
+    content: "";
+    position: absolute;
+    background: white;
     height: .125em;
     width: 1.25em;
     left: 0;
@@ -324,16 +344,19 @@ h1, h2, h3, h4 {
     height: calc(1.5em + 1rem + 3px);
 }
 /* dashboard */
-
-.card-bg {
-    /* box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1); */
-    border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.dashboard-actionbar {
+.main-area-header {
+    height: 8rem;
+    padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition: all .3s ease-out;
+}
+
+.actionbar {
+    height: 3rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    transition: all .3s ease-out;
 }
 
 .profile-grid {
@@ -373,3 +396,15 @@ h1, h2, h3, h4 {
 .profile-img {
     width: 100%;
 }
+
+.side-menu {
+    padding: 0;
+    height: 100%;
+}
+
+.main-area {
+    padding: 0;
+}
+
+
+

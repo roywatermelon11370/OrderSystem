@@ -8,7 +8,7 @@
 
 <body id="body" class="bg-light">
 
-<nav id="navbar-l" class="navbar navbar-expand-sm navbar-light bg-white nav-shadow sticky-top">
+<nav id="navbar-l" class="navbar navbar-expand-sm navbar-dark bg-dark nav-shadow sticky-top">
         <a class="navbar-brand" href="">訂餐系統</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,13 +47,13 @@
         </div>
     </nav>
     
-    <div class="p-2 px-3">
+    <div>
         <div class="row">
-            <div class="col-md-3 col-sm-12">
+            <div class="col-md-3 col-sm-12 side-menu sticky-top" style="top: 4.25rem;">
 
-                <div class="nav nav-pills flex-column sticky-top" id="v-pills-tab" role="tablist"
-                    aria-orientation="vertical" style="top: 4.25rem;">
-                    <h6 class="text-secondary py-2 pl-3">控制台</h6>
+                <div class="nav nav-pills flex-column" id="v-pills-tab" role="tablist"
+                    aria-orientation="vertical">
+                    <h6 class="text-secondary py-3 pl-3">控制台</h6>
                     <a class="nav-link active " id="v-pills-profile-tab" data-toggle="pill" href="#l-profile" role="tab"
                         aria-controls="v-pills-profile" aria-selected="true"><span
                             class="mdi mdi-account-circle"></span>
@@ -75,7 +75,7 @@
                 </div>
 
             </div>
-            <div class="col-md-8 col-sm-12">
+            <div class="col-md-9 col-sm-12 main-area bg-white">
                 <div class="tab-content full-height" id="v-pills-tabContent">
                     <div class="tab-pane fade show active" id="l-profile" role="tabpanel"
                         aria-labelledby="v-pills-profile-tab">

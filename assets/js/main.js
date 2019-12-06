@@ -19,6 +19,12 @@ $(document).ready(function () {
             $('#navbar').removeClass('bg-primary')
             $('#navbar').removeClass('nav-shadow')
         }
+
+        let headerHeight=$('.navbar').outerHeight()+$('.main-area-header').outerHeight()- $('.actionbar').outerHeight();
+
+        if($(window).scrollTop() >= headerHeight ) {
+            
+        }
     })
 
     $('#NavBtn').click(function () {
