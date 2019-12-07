@@ -1,16 +1,11 @@
-<div class="mx-3 dashboard-actionbar pt-1">
-  <div>
-    <h4 class="pt-2">優惠券</h4>
-  </div>
-  <div>
-    <ul class="nav">
-      
-    </ul>
+<div class="bg-primary text-white main-area-header">
+  <div class="col-md-10 col-sm-12">
+    <div>
+      <h3 class="decor-title-white">優惠券</h3>
+    </div>
   </div>
 </div>
 
 <div class="p-3">
-    <div class="bg-white p-3 card-bg rounded">
-        <p class="text-secondary">尚未推出，敬請期待 !</p>
-    </div>
+  <p class="text-secondary">尚未推出，敬請期待 !</p>
 </div>

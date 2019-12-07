@@ -189,7 +189,7 @@ h1, h2, h3, h4 {
     top: 0;
     left: 0;
     background: black;
-    opacity: 0.3;
+    opacity: 0.15;
     width: 100%;
     height: 100%;
     animation: fade 1s;
@@ -354,8 +354,33 @@ h1, h2, h3, h4 {
 }
 
 .actionbar {
-    height: 3rem;
+    border-bottom: 0 solid white;
+    transition: all .2s ease-out;
+    display: flex;
+    align-items: center;
+    height: 3.25rem;
+    z-index: 1000;
+}
+
+.actionbar-active {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    transition: all .2s ease-out;
+}
+
+.actionbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1.5rem;
+}
+
+.actionbar-title {
+    opacity: 0;
+    transition: all .3s ease-out;
+}
+
+.actionbar-title-active {
+    opacity: 1;
     transition: all .3s ease-out;
 }
 
@@ -405,6 +430,4 @@ h1, h2, h3, h4 {
 .main-area {
     padding: 0;
 }
-
-
 
