@@ -12,12 +12,12 @@ $(document).ready(function () {
         }
 
         if($(window).scrollTop() >= $('#banner').outerHeight() - $('.navbar').outerHeight()) {
-            $('#navbar').addClass('bg-primary')
-            $('#navbar').addClass('nav-shadow')
+            $('#navbar-index').addClass('bg-primary')
+            $('#navbar-index').addClass('nav-shadow')
         }
         else {
-            $('#navbar').removeClass('bg-primary')
-            $('#navbar').removeClass('nav-shadow')
+            $('#navbar-index').removeClass('bg-primary')
+            $('#navbar-index').removeClass('nav-shadow')
         }
 
         if($(window).scrollTop() >= $('.main-area-header').outerHeight()) {
