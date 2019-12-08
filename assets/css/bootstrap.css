@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --blue: #2979ff;
+  --blue: #0091ea;
   --indigo: #546e7a;
   --purple: #651fff;
   --pink: #f50057;
@@ -21,7 +21,7 @@
   --primary: #00bfa5;
   --secondary: #546e7a;
   --success: #00c853;
-  --info: #2979ff;
+  --info: #0091ea;
   --warning: #FFab00;
   --danger: #ff1744;
   --light: #e9ecef;
@@ -1261,19 +1261,19 @@ pre {
 .table-info,
 .table-info > th,
 .table-info > td {
-  background-color: #c3d9ff; }
+  background-color: #b8e0f9; }
 
 .table-info th,
 .table-info td,
 .table-info thead th,
 .table-info tbody + tbody {
-  border-color: #90b9ff; }
+  border-color: #7ac6f4; }
 
 .table-hover .table-info:hover {
-  background-color: #aac9ff; }
+  background-color: #a0d6f7; }
   .table-hover .table-info:hover > td,
   .table-hover .table-info:hover > th {
-    background-color: #aac9ff; }
+    background-color: #a0d6f7; }
 
 .table-warning,
 .table-warning > th,
@@ -1882,29 +1882,29 @@ fieldset:disabled a.btn {
 
 .btn-info {
   color: #fff;
-  background-color: #2979ff;
-  border-color: #2979ff; }
+  background-color: #0091ea;
+  border-color: #0091ea; }
   .btn-info:hover {
     color: #fff;
-    background-color: #0361ff;
-    border-color: #005cf5; }
+    background-color: #0079c4;
+    border-color: #0071b7; }
   .btn-info:focus, .btn-info.focus {
     color: #fff;
-    background-color: #0361ff;
-    border-color: #005cf5;
-    box-shadow: 0 0 0 0.1rem rgba(73, 141, 255, 0.5); }
+    background-color: #0079c4;
+    border-color: #0071b7;
+    box-shadow: 0 0 0 0.1rem rgba(38, 162, 237, 0.5); }
   .btn-info.disabled, .btn-info:disabled {
     color: #fff;
-    background-color: #2979ff;
-    border-color: #2979ff; }
+    background-color: #0091ea;
+    border-color: #0091ea; }
   .btn-info:not(:disabled):not(.disabled):active, .btn-info:not(:disabled):not(.disabled).active,
   .show > .btn-info.dropdown-toggle {
     color: #fff;
-    background-color: #005cf5;
-    border-color: #0057e8; }
+    background-color: #0071b7;
+    border-color: #0069aa; }
     .btn-info:not(:disabled):not(.disabled):active:focus, .btn-info:not(:disabled):not(.disabled).active:focus,
     .show > .btn-info.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.1rem rgba(73, 141, 255, 0.5); }
+      box-shadow: 0 0 0 0.1rem rgba(38, 162, 237, 0.5); }
 
 .btn-warning {
   color: #212529;
@@ -2074,25 +2074,25 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.1rem rgba(0, 200, 83, 0.5); }
 
 .btn-outline-info {
-  color: #2979ff;
-  border-color: #2979ff; }
+  color: #0091ea;
+  border-color: #0091ea; }
   .btn-outline-info:hover {
     color: #fff;
-    background-color: #2979ff;
-    border-color: #2979ff; }
+    background-color: #0091ea;
+    border-color: #0091ea; }
   .btn-outline-info:focus, .btn-outline-info.focus {
-    box-shadow: 0 0 0 0.1rem rgba(41, 121, 255, 0.5); }
+    box-shadow: 0 0 0 0.1rem rgba(0, 145, 234, 0.5); }
   .btn-outline-info.disabled, .btn-outline-info:disabled {
-    color: #2979ff;
+    color: #0091ea;
     background-color: transparent; }
   .btn-outline-info:not(:disabled):not(.disabled):active, .btn-outline-info:not(:disabled):not(.disabled).active,
   .show > .btn-outline-info.dropdown-toggle {
     color: #fff;
-    background-color: #2979ff;
-    border-color: #2979ff; }
+    background-color: #0091ea;
+    border-color: #0091ea; }
     .btn-outline-info:not(:disabled):not(.disabled):active:focus, .btn-outline-info:not(:disabled):not(.disabled).active:focus,
     .show > .btn-outline-info.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.1rem rgba(41, 121, 255, 0.5); }
+      box-shadow: 0 0 0 0.1rem rgba(0, 145, 234, 0.5); }
 
 .btn-outline-warning {
   color: #FFab00;
@@ -3644,13 +3644,13 @@ input[type="button"].btn-block {
 
 .badge-info {
   color: #fff;
-  background-color: #2979ff; }
+  background-color: #0091ea; }
   a.badge-info:hover, a.badge-info:focus {
     color: #fff;
-    background-color: #005cf5; }
+    background-color: #0071b7; }
   a.badge-info:focus, a.badge-info.focus {
     outline: 0;
-    box-shadow: 0 0 0 0.1rem rgba(41, 121, 255, 0.5); }
+    box-shadow: 0 0 0 0.1rem rgba(0, 145, 234, 0.5); }
 
 .badge-warning {
   color: #212529;
@@ -3756,13 +3756,13 @@ input[type="button"].btn-block {
     color: #003516; }
 
 .alert-info {
-  color: #153f85;
-  background-color: #d4e4ff;
-  border-color: #c3d9ff; }
+  color: #004b7a;
+  background-color: #cce9fb;
+  border-color: #b8e0f9; }
   .alert-info hr {
-    border-top-color: #aac9ff; }
+    border-top-color: #a0d6f7; }
   .alert-info .alert-link {
-    color: #0e2a59; }
+    color: #002c47; }
 
 .alert-warning {
   color: #855900;
@@ -4024,15 +4024,15 @@ input[type="button"].btn-block {
     border-color: #00682b; }
 
 .list-group-item-info {
-  color: #153f85;
-  background-color: #c3d9ff; }
+  color: #004b7a;
+  background-color: #b8e0f9; }
   .list-group-item-info.list-group-item-action:hover, .list-group-item-info.list-group-item-action:focus {
-    color: #153f85;
-    background-color: #aac9ff; }
+    color: #004b7a;
+    background-color: #a0d6f7; }
   .list-group-item-info.list-group-item-action.active {
     color: #fff;
-    background-color: #153f85;
-    border-color: #153f85; }
+    background-color: #004b7a;
+    border-color: #004b7a; }
 
 .list-group-item-warning {
   color: #855900;
@@ -4725,12 +4725,12 @@ button.bg-success:focus {
   background-color: #00953e !important; }
 
 .bg-info {
-  background-color: #2979ff !important; }
+  background-color: #0091ea !important; }
 
 a.bg-info:hover, a.bg-info:focus,
 button.bg-info:hover,
 button.bg-info:focus {
-  background-color: #005cf5 !important; }
+  background-color: #0071b7 !important; }
 
 .bg-warning {
   background-color: #FFab00 !important; }
@@ -4810,7 +4810,7 @@ button.bg-dark:focus {
   border-color: #00c853 !important; }
 
 .border-info {
-  border-color: #2979ff !important; }
+  border-color: #0091ea !important; }
 
 .border-warning {
   border-color: #FFab00 !important; }
@@ -7046,10 +7046,10 @@ a.text-success:hover, a.text-success:focus {
   color: #007c33 !important; }
 
 .text-info {
-  color: #2979ff !important; }
+  color: #0091ea !important; }
 
 a.text-info:hover, a.text-info:focus {
-  color: #0052dc !important; }
+  color: #00629e !important; }
 
 .text-warning {
   color: #FFab00 !important; }

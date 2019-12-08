@@ -53,7 +53,7 @@
 
                 <div class="nav nav-pills flex-column" id="v-pills-tab" role="tablist"
                     aria-orientation="vertical">
-                    <h6 class="text-secondary py-3 pl-3">控制台</h6>
+                    <h6 class="text-secondary py-2 pl-3">控制台</h6>
                     <a class="nav-link active " id="v-pills-profile-tab" data-toggle="pill" href="#l-profile" role="tab"
                         aria-controls="v-pills-profile" aria-selected="true"><span
                             class="mdi mdi-account-circle"></span>
