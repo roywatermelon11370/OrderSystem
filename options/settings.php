@@ -6,9 +6,9 @@
   </div>
 </div>
 
-<div id="actionbar5" class="actionbar sticky-top bg-white" style="top: 3.6rem">
+<div class="actionbar sticky-top bg-white" style="top: 3.6rem">
   <div class="col-md-10 col-sm-12 actionbar-content">
-    <div id="actionbar-title-5" class="actionbar-title">
+    <div class="actionbar-title">
       <h5 class="mb-0">設定</h5>
     </div>
   </div>

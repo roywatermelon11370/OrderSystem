@@ -11,9 +11,9 @@
     </div>
 </div>
 
-<div id="actionbar4" class="actionbar sticky-top bg-white" style="top: 3.6rem">
+<div class="actionbar sticky-top bg-white" style="top: 3.6rem">
     <div class="col-md-10 col-sm-12 actionbar-content">
-        <div id="actionbar-title-4" class="actionbar-title">
+        <div class="actionbar-title">
             <h5 class="mb-0">編輯個人資料</h5>
         </div>
 
@@ -31,7 +31,7 @@
     <div class="p-3 col-md-10 col-sm-12">
         <div class="bg-white card-bg rounded">
             <form name="login" method="post" action="login.php" class="text-left">
-                <div class="row py-2">
+                <div class="row py-3">
                     <div class="col-md-2 form-text text-secondary">
                         <span class="mdi mdi-face"> &nbsp;&nbsp;</span> 姓名
                         <p class="text-danger">*</p>
@@ -40,7 +40,7 @@
                         <input type="text" class="form-control" id="formGroupExampleInput">
                     </div>
                 </div>
-                <div class="row py-2">
+                <div class="row py-3">
                     <div class="col-md-2 form-text text-secondary">
                         <span class="mdi mdi-email-open"> &nbsp;&nbsp;</span> Email
                         <p class="text-danger">*</p>
@@ -49,7 +49,7 @@
                         <input type="text" class="form-control" id="formGroupExampleInput">
                     </div>
                 </div>
-                <div class="row py-2">
+                <div class="row py-3">
                     <div class="col-md-2 form-text text-secondary">
                         <span class="mdi mdi-map-marker"> &nbsp;&nbsp;</span> 地址
                     </div>
@@ -57,7 +57,7 @@
                         <input type="text" class="form-control" id="formGroupExampleInput">
                     </div>
                 </div>
-                <div class="row py-2">
+                <div class="row py-3">
                     <div class="col-md-2 form-text text-secondary">
                         <span class="mdi mdi-gender-male-female"> &nbsp;&nbsp;</span> 性別
                     </div>
@@ -76,7 +76,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row py-2">
+                <div class="row py-3">
                     <div class="col-md-2 form-text text-secondary">
                         <span class="mdi mdi-phone"> &nbsp;&nbsp;</span> 電話
                     </div>
@@ -84,7 +84,7 @@
                         <input type="text" class="form-control" id="phone">
                     </div>
                 </div>
-                <div class="row py-2">
+                <div class="row py-3">
                     <div class="col-md-2 form-text text-secondary">
                         <span class="mdi mdi-cake"> &nbsp;&nbsp;</span> 生日
                     </div>
@@ -92,7 +92,7 @@
                         <input type="date" class="form-control" id="birthday">
                     </div>
                 </div>
-                <div class="row py-2">
+                <div class="row py-3">
                     <div class="col-md-2 form-text text-secondary">
                         <span class="mdi mdi-note-text"> &nbsp;&nbsp;</span> 備註
                     </div>

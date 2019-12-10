@@ -11,9 +11,9 @@
   </div>
 </div>
 
-<div id="actionbar1" class="actionbar sticky-top bg-white" style="top: 3.55rem">
+<div class="actionbar sticky-top bg-white" style="top: 3.55rem">
   <div class="col-md-10 col-sm-12">
-    <div id="actionbar-title-1" class="actionbar-title">
+    <div class="actionbar-title">
      <h5 class="mb-0">個人資料</h5>
     </div>
 

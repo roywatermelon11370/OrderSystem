@@ -1,4 +1,4 @@
-<nav id="navbar-secondary" class="navbar navbar-expand-sm navbar-dark bg-primary nav-shadow sticky-top">
+<nav id="navbar-secondary" class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
     <a class="navbar-brand" href="#">訂餐系統</a>
     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
         aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">

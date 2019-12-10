@@ -6,9 +6,9 @@
   </div>
 </div>
 
-<div id="actionbar3" class="actionbar sticky-top bg-white" style="top: 3.6rem">
+<div class="actionbar sticky-top bg-white" style="top: 3.6rem">
   <div class="col-md-10 col-sm-12 actionbar-content">
-    <div id="actionbar-title-3" class="actionbar-title">
+    <div class="actionbar-title">
       <h5 class="mb-0">購餐歷史</h5>
     </div>
 

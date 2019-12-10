@@ -128,8 +128,8 @@ h1, h2, h3, h4 {
     content: "";
     position: absolute;
     background: var(--primary);
-    height: .125em;
-    width: 1.25em;
+    height: .1em;
+    width: 1em;
     left: 0;
     bottom: -.5em;
     z-index: 1;
@@ -144,8 +144,8 @@ h1, h2, h3, h4 {
     content: "";
     position: absolute;
     background: white;
-    height: .125em;
-    width: 1.25em;
+    height: .1em;
+    width: 1em;
     left: 0;
     bottom: -.5em;
     z-index: 1;
@@ -345,8 +345,9 @@ h1, h2, h3, h4 {
 
 .form-text {
     display: flex;
-    align-content: center;
+    align-items: center;
     height: calc(1.5em + 1rem + 3px);
+    margin: 0;
 }
 /* dashboard */
 .main-area-header {
@@ -369,7 +370,7 @@ h1, h2, h3, h4 {
     width: 100%;
     height: 100%;
     background: var(--primary);
-    opacity: 0.9;
+    opacity: 0.85;
     z-index: 0;
 }
 
@@ -450,3 +451,14 @@ h1, h2, h3, h4 {
 .main-area {
     padding: 0;
 }
+
+.main-area-square-item {
+    transition: all .3s ease;
+    }
+    .main-area-square-item:hover {
+        background: rgba(0, 0, 0, 0.1);
+        transition: all .3s ease;
+    }
+    .main-area-square-item:active {
+        background: rgba(0, 0, 0, 0.4);
+    }
