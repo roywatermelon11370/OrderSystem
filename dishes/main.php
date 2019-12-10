@@ -11,8 +11,8 @@
 
   <div class="container full-height">
     <div class="row">
-      <div class="col-md-3 col-sm-12 pt-2">
-        <nav class="nav flex-column">
+      <div class="col-md-3 col-sm-12">
+        <div class="nav flex-column sticky-top" style="top:4rem"> 
           <a class="nav-link text-secondary" href="#"><span class="mdi mdi-magnify"></span> 搜尋</a>
           <a class="nav-link text-secondary" href="#"><span class="mdi mdi-filter"></span> 選擇條件</a>
           <a class="nav-link" href="#section1">中華料理</a>
@@ -22,11 +22,11 @@
           <a class="nav-link" href="#section5">南洋料理</a>
           <a class="nav-link" href="#section6">甜點、飲料</a>
           <a class="nav-link" href="#section7">其他</a>
-        </nav>
+        </div>
       </div>
 
-      <div data-spy="scroll" class="col-md-9 col-sm-12 bg-white">
-        <div class="bd-example pt-3 pb-5">
+      <div class="col-md-9 col-sm-12 bg-white main-area">
+        <div class="bd-example">
           <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -59,8 +59,8 @@
           </div>
         </div>
         <!-- list -->
-        <div id="section1" class="py-2">
-          <h4 class="pl-3 pb-1">中華料理</h4>
+        <div id="section1" class="p-3">
+          <h4 class="pl-3 pb-1 pt-3">中華料理</h4>
           <div class="row">
             <a href="#" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
               <img src="https://picsum.photos/id/460/600/400" alt="" class="img-fluid">
