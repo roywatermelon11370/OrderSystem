@@ -62,7 +62,7 @@
         <div id="section1" class="p-3">
           <h4 class="pl-3 pb-1 pt-3">中華料理</h4>
           <div class="row">
-            <a href="#" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+            <a href="store.php" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
               <img src="https://picsum.photos/id/460/600/400" alt="" class="img-fluid">
               <div class="p-2">
                 <h5 class="text-dark">停雲館</h5>
