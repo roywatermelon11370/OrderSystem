@@ -27,7 +27,7 @@
                         placeholder="確認密碼">
                 </p>
                 <div class="text-center justify-content-end d-flex">
-                    <a href="dashboard.php" class="btn btn-secondary mr-3">取消</a>
+                    <button type="button" onclick="history.back()" class="btn btn-secondary mr-3">取消</button>
                     <button type="submit" class="btn btn-primary">確定</button>
                 </div>
                 </div>

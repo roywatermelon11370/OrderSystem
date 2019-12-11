@@ -12,7 +12,7 @@
   <div class="container full-height">
     <div class="row">
       <div class="col-md-3 col-sm-12">
-        <div class="nav flex-column sticky-top" style="top:4rem"> 
+        <div class="nav flex-column sticky-top" style="top:4rem">
           <a class="nav-link text-secondary" href="#"><span class="mdi mdi-magnify"></span> 搜尋</a>
           <a class="nav-link text-secondary" href="#"><span class="mdi mdi-filter"></span> 選擇條件</a>
           <a class="nav-link" href="#section1">中華料理</a>
@@ -58,9 +58,227 @@
             </a>
           </div>
         </div>
+
         <!-- list -->
+        <!-- section1 -->
         <div id="section1" class="p-3">
           <h4 class="pl-3 pb-1 pt-3">中華料理</h4>
+          <div class="row">
+            <a href="store.php" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/460/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+            <a href="#" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/475/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+            <a href="#" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/480/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+            <a href="#" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/490/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+          </div>
+          <hr>
+        </div>
+
+        <!-- section2 -->
+        <div id="section2" class="p-3">
+          <h4 class="pl-3 pb-1 pt-3">日本料理</h4>
+          <div class="row">
+            <a href="store.php" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/460/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+            <a href="#" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/475/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+            <a href="#" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/480/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+            <a href="#" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/490/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+          </div>
+          <hr>
+        </div>
+
+        <!-- section3 -->
+        <div id="section3" class="p-3">
+          <h4 class="pl-3 pb-1 pt-3">義式料理</h4>
+          <div class="row">
+            <a href="store.php" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/460/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+            <a href="#" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/475/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+            <a href="#" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/480/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+            <a href="#" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/490/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+          </div>
+          <hr>
+        </div>
+
+        <!-- section4 -->
+        <div id="section4" class="p-3">
+          <h4 class="pl-3 pb-1 pt-3">美式料理</h4>
+          <div class="row">
+            <a href="store.php" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/460/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+            <a href="#" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/475/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+            <a href="#" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/480/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+            <a href="#" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/490/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+          </div>
+          <hr>
+        </div>
+
+        <!-- section5 -->
+        <div id="section5" class="p-3">
+          <h4 class="pl-3 pb-1 pt-3">南洋料理</h4>
+          <div class="row">
+            <a href="store.php" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/460/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+            <a href="#" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/475/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+            <a href="#" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/480/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+            <a href="#" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/490/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+          </div>
+          <hr>
+        </div>
+
+        <!-- section6 -->
+        <div id="section6" class="p-3">
+          <h4 class="pl-3 pb-1 pt-3">甜點、飲料</h4>
+          <div class="row">
+            <a href="store.php" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/460/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+            <a href="#" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/475/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+            <a href="#" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/480/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+            <a href="#" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
+              <img src="https://picsum.photos/id/490/600/400" alt="" class="img-fluid">
+              <div class="p-2">
+                <h5 class="text-dark">停雲館</h5>
+                <p class="text-secondary">營業時間: 9:00-18:00</p>
+              </div>
+            </a>
+          </div>
+          <hr>
+        </div>
+
+        <!-- section7 -->
+        <div id="section7" class="p-3">
+          <h4 class="pl-3 pb-1 pt-3">其他</h4>
           <div class="row">
             <a href="store.php" class="col-md-4 col-sm-12 text-black main-area-square-item py-2">
               <img src="https://picsum.photos/id/460/600/400" alt="" class="img-fluid">
