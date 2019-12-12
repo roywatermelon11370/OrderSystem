@@ -312,9 +312,11 @@ h1, h2, h3, h4 {
 
 /* form */
 .bg {
-    background-image: url(../images/banner.jpg);
+    background-image: url(../images/mainareabg.jpg);
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .form-bg {
@@ -370,12 +372,11 @@ h1, h2, h3, h4 {
     width: 100%;
     height: 100%;
     background: var(--primary);
-    opacity: 0.85;
+    opacity: 0.7;
     z-index: 0;
 }
 
 .actionbar {
-    border-bottom: 0 solid white;
     transition: all .2s ease-out;
     display: flex;
     align-items: center;
