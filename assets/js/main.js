@@ -1,17 +1,15 @@
 $(document).ready(function () {
     $(window).on('scroll', function () {
         if ($(window).scrollTop()) {
-            $('#navbar-normal').removeClass('bg-light');
             $('#navbar-normal').addClass('bg-white');
             $('#navbar-normal').addClass('nav-shadow');
         }
         else {
             $('#navbar-normal').removeClass('bg-white');
             $('#navbar-normal').removeClass('nav-shadow');
-            $('#navbar-normal').addClass('bg-light');
         }
 
-        if($(window).scrollTop() >= $('#banner').outerHeight() - $('.navbar').outerHeight()) {
+        if($(window).scrollTop() >= $('#banner').outerHeight() + $('#introduce').outerHeight() - $('.navbar').outerHeight()) {
             $('#navbar-index').addClass('bg-primary')
             $('#navbar-index').addClass('nav-shadow')
         }

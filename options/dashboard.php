@@ -8,7 +8,7 @@
 
 <body id="body" class="bg-light">
 
-<nav id="navbar" class="navbar navbar-expand-sm navbar-dark bg-dark nav-shadow sticky-top">
+<nav id="navbar-normal" class="navbar navbar-expand-sm navbar-light fixed-top">
         <a class="navbar-brand" href="">訂餐系統</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">

@@ -1,7 +1,7 @@
-<div class="bg-primary text-white main-area-header">
+<div class="bg-primary text-dark main-area-header">
   <div class="col-md-10 col-sm-12">
     <div>
-      <h3 class="decor-title-white">優惠券</h3>
+      <h3 class="decor-title-primary">優惠券</h3>
     </div>
   </div>
 </div>

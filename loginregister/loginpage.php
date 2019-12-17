@@ -1,12 +1,3 @@
-<?php 
-require_once("connMysql.php");
-session_start();
-if(isset($_SESSION["loginMember"]) && ($_SESSION["loginMember"]!="")) {
-    header("Location:../dishes/main.php")
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="zh-tw">
 
