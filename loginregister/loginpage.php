@@ -1,3 +1,17 @@
+<?php
+require_once("connMysql.php");
+if(isset($_SESSION["loginMember"]) && ($_SESSION["loginMember"]!="")) {
+    if($_SESSION["memberLevel"]=="deliver"){
+		header("Location: ../options/deliver.php");
+    }
+    else if($_SESSION["memberLevel"]=="store"){
+		header("location: ../options/store.php");
+    }
+    else if($_SESSION["memberLevel"]=="customer"){
+        header("location: ../dishes/main.php");
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="zh-tw">
 
@@ -12,15 +26,21 @@
             <div>
                 <h3 class="text-dark decor-title-primary mb-4">登入</h3>
             </div>
-            
+            <?php 
+                if(isset($_GET["errMsg"]) && $_GET["errMsg"] == 1) { 
+                    echo
+                    '<div class="alert alert-dismissible alert-danger"><span class="mdi mdi-alert-circle"></span> 帳號或密碼錯誤，請再試一次。
+</div>';
+                }
+            ?>
             <form name="login" method="post" action="login.php" class="text-left py-2">
             <p class="d-flex">
                     <span class="mdi mdi-account-circle text-secondary form-icon"></span>
-                    <input name="account" id="account" type="text" class="form-control" placeholder="帳號">
+                    <input name="username" id="account" type="text" class="form-control" placeholder="帳號">
                 </p>
                 <p class="d-flex">
                     <span class="mdi mdi-key text-secondary form-icon"></span>
-                    <input name="password" id="password" type="password" class="form-control" placeholder="密碼">
+                    <input name="passwd" id="password" type="password" class="form-control" placeholder="密碼">
                 </p>
                 <div class="custom-control custom-checkbox">
                     <input name="rememberme" type="checkbox" id="rememberme" class="custom-control-input" value="true" checked>
@@ -30,6 +50,5 @@
             </form>
             <p class="text-secondary">沒有帳號? <a href="registerpage.html">註冊</a></p>
         </div>
-        
     </div>
 </body>

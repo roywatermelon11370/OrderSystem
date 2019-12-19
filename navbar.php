@@ -1,3 +1,10 @@
+<?php 
+    if(isset($_GET["logout"]) && $_GET["logout"] == "true") {
+        unset($_SESSION["loginMember"]);
+        unset($_SESSION["memberLevel"]);
+        header("location: index.html");
+    }
+?>
 <nav id="navbar-secondary" class="navbar navbar-expand-sm navbar-dark bg-primary sticky-top">
     <a class="navbar-brand" href="#">訂餐系統</a>
     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
@@ -24,13 +31,13 @@
                             <img src="../assets/images/royhuang/profile.png" alt="">
                             <div class="drop-profile-area-text">
                                 <h6>Roy Huang</h6>
-                                <p class="text-secondary text-small">royhuang111</p>
+                                <p class="text-secondary text-small"></p>
                             </div>
                         </div>
                     </a>
                     <a class="dropdown-item" href="../options/dashboard.php">控制台</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item text-danger" href="#">登出</a>
+                    <a class="dropdown-item text-danger" href="../navbar.php?logout=true">登出</a>
                 </div>
             </li>
         </ul>
