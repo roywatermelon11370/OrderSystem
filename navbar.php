@@ -1,10 +1,3 @@
-<?php 
-    if(isset($_GET["logout"]) && $_GET["logout"] == "true") {
-        unset($_SESSION["loginMember"]);
-        unset($_SESSION["memberLevel"]);
-        header("location: index.html");
-    }
-?>
 <nav id="navbar-secondary" class="navbar navbar-expand-sm navbar-dark bg-primary sticky-top">
     <a class="navbar-brand" href="#">訂餐系統</a>
     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
@@ -23,21 +16,21 @@
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link px-3" data-toggle="dropdown" href="#"><span
-                        class="mdi mdi-account-circle-outline"></span> 個人資料 <span
+                        class="mdi mdi-account-circle-outline"></span> <?php echo $_SESSION["loginMember"] ?> <span
                         class="mdi mdi-chevron-down"></span></a>
                 <div class="dropdown-menu dropdown-menu-right">
                     <a class="dropdown-item" href="../options/dashboard.php">
                         <div class="drop-profile-area">
                             <img src="../assets/images/royhuang/profile.png" alt="">
                             <div class="drop-profile-area-text">
-                                <h6>Roy Huang</h6>
-                                <p class="text-secondary text-small"></p>
+                                <h6><?php echo $_SESSION['memberName'];?></h6>
+                                <p class="text-secondary text-small"><?php echo $_SESSION['loginMember'];?></p>
                             </div>
                         </div>
                     </a>
-                    <a class="dropdown-item" href="../options/dashboard.php">控制台</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item text-danger" href="../navbar.php?logout=true">登出</a>
+                    <a class="dropdown-item text-secondary" href="../options/dashboard.php"><span class="mdi mdi-settings"></span> 控制台</a>
+                    <a class="dropdown-item text-secondary" href="../logout.php"><span class="mdi mdi-logout"></span> 登出</a>
                 </div>
             </li>
         </ul>

@@ -1,7 +1,7 @@
-<div class="bg-primary text-dark main-area-header">
+<div class="bg-primary text-white main-area-header">
   <div class="col-md-10 col-sm-12">
   <div>
-    <h3 class="decor-title-primary">個人資料</h3>
+    <h3 class="decor-title-white">個人資料</h3>
   </div>
   <div>
     <ul class="nav">
@@ -11,7 +11,7 @@
   </div>
 </div>
 
-<div class="actionbar sticky-top bg-white" style="top: 3.55rem">
+<div class="actionbar sticky-top">
   <div class="col-md-10 col-sm-12">
     <div class="actionbar-title">
      <h5 class="mb-0">個人資料</h5>
@@ -29,18 +29,18 @@
         <div class="profile-card-1 bg-light card-bg p-3">
             <img src="../assets/images/royhuang/profile.png" alt="" class="bg-dark profile-img rounded">
             <div class="pt-3">
-                <h5>royhuang</h5>
+                <h5><?php echo $_SESSION["memberName"];?></h5>
                 <p class="text-secondary">
-                    ID: royhuang111 <br>
-                    Email: roytw0755@gmail.com
+                    ID: <?php echo $_SESSION["loginMember"];?> <br>
+                    Email: <?php echo $email?>
                 </p>
             </div>
         </div>
         <div class="profile-card-2 bg-light card-bg p-3 text-secondary">
           <p><span class="mdi mdi-information"></span> 更多資料</p>
           <p>
-            地址: 新北市板橋區大觀路 <br>
-            電話: 0987654321 <br>
+            地址: <?php if(isset($address) && $address!="") echo $address; else echo "尚未設定"; ?> <br>
+            電話: <?php if(isset($phone) && $phone!="") echo $phone; else echo "尚未設定"; ?> <br>
 
           </p>
         </div>

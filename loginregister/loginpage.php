@@ -1,5 +1,6 @@
 <?php
-require_once("connMysql.php");
+require_once("../connMysql.php");
+session_start();
 if(isset($_SESSION["loginMember"]) && ($_SESSION["loginMember"]!="")) {
     if($_SESSION["memberLevel"]=="deliver"){
 		header("Location: ../options/deliver.php");
@@ -20,23 +21,44 @@ if(isset($_SESSION["loginMember"]) && ($_SESSION["loginMember"]!="")) {
     <?php require_once("../head.html"); ?>
 </head>
 
+<?php 
+    if(isset($_GET["errMsg"]) && $_GET["errMsg"] == 1) {
+        $err=1;
+    }
+    else {
+        $err=0;
+    }
+?>
+
+<script type='text/javascript'>
+    $(document).ready(function () {
+        var err=<?php echo $err?>;
+    if(err == 1) {
+        $('#username').addClass('is-invalid');
+        $('#password').addClass('is-invalid');
+        $('#error').text("帳號或密碼錯誤，請在試一次。");
+    }
+
+    $('#username').click(function() {
+        $('#username').removeClass('is-invalid');
+    });
+    $('#password').click(function(){
+        $('#password').removeClass('is-invalid');
+    });
+    });
+</script>
+
 <body class="bg">
     <div class="form-bg">
-        <div class="form-card rounded bg-white">
+        <div class="form-card bg-white">
             <div>
                 <h3 class="text-dark decor-title-primary mb-4">登入</h3>
             </div>
-            <?php 
-                if(isset($_GET["errMsg"]) && $_GET["errMsg"] == 1) { 
-                    echo
-                    '<div class="alert alert-dismissible alert-danger"><span class="mdi mdi-alert-circle"></span> 帳號或密碼錯誤，請再試一次。
-</div>';
-                }
-            ?>
+            <p id="error" class="text-danger text-center"></p>
             <form name="login" method="post" action="login.php" class="text-left py-2">
-            <p class="d-flex">
+                <p class="d-flex">
                     <span class="mdi mdi-account-circle text-secondary form-icon"></span>
-                    <input name="username" id="account" type="text" class="form-control" placeholder="帳號">
+                    <input name="username" id="username" type="text" class="form-control" placeholder="帳號">
                 </p>
                 <p class="d-flex">
                     <span class="mdi mdi-key text-secondary form-icon"></span>
@@ -48,7 +70,7 @@ if(isset($_SESSION["loginMember"]) && ($_SESSION["loginMember"]!="")) {
                 </div><br>
                 <button type="submit" class="btn btn-primary btn-block">登入</button>
             </form>
-            <p class="text-secondary">沒有帳號? <a href="registerpage.html">註冊</a></p>
+            <p class="text-secondary">沒有帳號? <a href="register.php">註冊</a></p>
         </div>
     </div>
 </body>

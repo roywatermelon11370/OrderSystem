@@ -1,12 +1,12 @@
-<div class="bg-primary text-dark main-area-header">
+<div class="bg-primary text-white main-area-header">
   <div class="col-md-10 col-sm-12">
     <div>
-      <h3 class="decor-title-primary">購餐歷史</h3>
+      <h3 class="decor-title-white">購餐歷史</h3>
     </div>
   </div>
 </div>
 
-<div class="actionbar sticky-top bg-white" style="top: 3.6rem">
+<div class="actionbar sticky-top">
   <div class="col-md-10 col-sm-12 actionbar-content">
     <div class="actionbar-title">
       <h5 class="mb-0">購餐歷史</h5>

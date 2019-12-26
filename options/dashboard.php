@@ -1,3 +1,18 @@
+<?php 
+    session_start();
+    include("../connMysql.php");
+    if($_SESSION["memberLevel"] != "customer") {
+        header('location: ../index.html');
+    }
+    $query_InfoBind = "SELECT `name`, `username`, `passwd`, `email`, `address`, `gender`, `phone`, `birthday`, `level`, `note` FROM `profile` WHERE `username`=?";
+	$stmt=$db_link->prepare($query_InfoBind);
+	$stmt->bind_param("s", $_SESSION["loginMember"]);
+  	$stmt->execute();
+	$stmt->bind_result($name, $username, $passwd, $email, $address, $gender, $phone, $birthday, $level, $note);	
+	$stmt->fetch();
+	$stmt->close();
+
+?>
 <!DOCTYPE html>
 <html lang="zh-tw">
 
@@ -8,7 +23,7 @@
 
 <body id="body" class="bg-light">
 
-<nav id="navbar-normal" class="navbar navbar-expand-sm navbar-light fixed-top">
+<nav id="navbar" class="navbar navbar-expand-sm navbar-light fixed-top">
         <a class="navbar-brand" href="">訂餐系統</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,28 +36,7 @@
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link px-3" href="cart.html"><span class="mdi mdi-cart-outline"></span> 購物車</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link px-3" data-toggle="dropdown" href="#"><span
-                            class="mdi mdi-account-circle-outline"></span> 個人資料 <span
-                            class="mdi mdi-chevron-down"></span></a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="#">
-                            <div class="drop-profile-area">
-                                <img src="../assets/images/royhuang/profile.png" alt="">
-                                <div class="drop-profile-area-text">
-                                    <h6>Roy Huang</h6>
-                                    <p class="text-secondary text-small">royhuang111</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="dropdown-item" href="#">控制台</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-danger" href="#">登出</a>
-                    </div>
-                </li>
+                
             </ul>
         </div>
     </nav>
@@ -70,7 +64,7 @@
                     <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
                         aria-controls="v-pills-settings" aria-selected="false"><span class="mdi mdi-settings"></span>
                         偏好設定</a>
-                    <a href="" class="nav-link text-secondary mt-2"><span class="mdi mdi-logout"></span>
+                    <a href="../logout.php" class="nav-link text-secondary mt-2"><span class="mdi mdi-logout"></span>
                         登出</a>
                 </div>
 

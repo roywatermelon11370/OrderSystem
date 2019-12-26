@@ -1,12 +1,12 @@
-<div class="bg-primary text-dark main-area-header">
+<div class="bg-primary text-white main-area-header">
   <div class="col-md-10 col-sm-12">
     <div>
-      <h3 class="decor-title-primary">設定</h3>
+      <h3 class="decor-title-white">設定</h3>
     </div>
   </div>
 </div>
 
-<div class="actionbar sticky-top bg-white" style="top: 3.6rem">
+<div class="actionbar sticky-top">
   <div class="col-md-10 col-sm-12 actionbar-content">
     <div class="actionbar-title">
       <h5 class="mb-0">設定</h5>
@@ -30,7 +30,7 @@
       <p class="h6">修改密碼</p>
       <p class="text-secondary mb-0">把密碼改掉~</p>
     </a>
-    <a class="list-group-item list-group-item-action">
+    <a class="list-group-item list-group-item-action" href="delaccount.php">
       <p class="h6 text-danger">刪除帳號</p>
       <p class="text-secondary mb-0">清除帳號及所有資料</p>
     </a>
