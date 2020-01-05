@@ -15,7 +15,7 @@
         if(password_verify($_POST["password"],$passwd)) {
             $query_delaccount = "DELETE FROM profile WHERE username=?";
             $stmt = $db_link->prepare($query_delaccount);
-            $stmt -> bind_param("s",$_POST["username"]);
+            $stmt -> bind_param("s",$_SESSION["loginMember"]);
             $stmt -> execute();
             $stmt -> close();
             header("Location: delaccount.php?msg=2");
@@ -46,21 +46,21 @@
 
 <body class="bg">
     <div class="form-bg">
-        <div class="form-card bg-white">
-            <h5><span class="mdi mdi-delete text-danger"></span> 刪除帳號</h5>
+        <div class="form-card bg-white rounded">
+            <h4><span class="mdi mdi-trash-can-outline text-danger"></span> 刪除帳號</h4>
             <p id="info" class="mb-0 mt-2 text-secondary">將帳號及相關資料全部刪除。<br>請注意，此動作<b class="text-danger">無法復原</b>。<br>請在底下輸入密碼以確認身分。</p>
             <form id="delaccountForm" name="delaccount" method="post" action="" class="text-left pt-4">
                 <p id="error" class="text-danger text-center mb-0"></p>
                 <p class="d-flex">
                     <span class="mdi mdi-account-circle text-secondary form-icon"></span>
-                    <input name="username" id="username" type="text" class="form-control-plaintext" placeholder="帳號" readonly value="<?php echo $_SESSION["loginMember"];?>">
+                    <input name="username" id="username" type="text" class="form-control bg-white" placeholder="帳號" readonly value="<?php echo $_SESSION["loginMember"];?>">
                 </p>
                 <p class="d-flex">
                     <span class="mdi mdi-key text-secondary form-icon"></span>
                     <input name="password" id="password" type="password" class="form-control" placeholder="密碼">
                 </p>
-                <div class="text-center">
-                    <button type="button" onclick="history.back()" class="btn btn-secondary mr-3">取消</button>
+                <div class="text-right">
+                    <button type="button" onclick="history.back()" class="btn btn-light mr-3">取消</button>
                     <input type="hidden" name="action" value="delete">
                     <button type="submit" class="btn btn-danger">刪除帳號</button>
                 </div>

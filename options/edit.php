@@ -10,7 +10,7 @@
         ?>
         <script>
             alert('修改成功!');
-            window.location('dashboard.php');
+            location.href='dashboard.php';
         </script>
         <?php
     }
@@ -164,7 +164,7 @@
                     </div>
                 </div>
                 <div class="text-center pt-3">
-                    <button type="reset" class="btn btn-secondary mr-2">重填</button>
+                    <button type="reset" class="btn btn-light mr-2">重填</button>
                     <input type="hidden" name="action" value="edit"> 
                     <button id="submit" type="submit" class="btn btn-primary">儲存</button>
                 </div>

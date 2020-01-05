@@ -50,9 +50,12 @@ if(isset($_SESSION["loginMember"]) && ($_SESSION["loginMember"]!="")) {
 
 <body class="bg">
     <div class="form-bg">
-        <div class="form-card bg-white">
+        <div class="form-card bg-white rounded">
             <div>
-                <h3 class="text-dark decor-title-primary mb-4">登入</h3>
+                <div class="form-circle bg-primary text-center">
+                    <span class="mdi mdi-account-circle-outline"></span>
+                </div>
+                <h4 class="text-dark text-center mb-1 mt-5">登入</h4>
             </div>
             <p id="error" class="text-danger text-center"></p>
             <form name="login" method="post" action="login.php" class="text-left py-2">

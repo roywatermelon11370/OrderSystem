@@ -2,22 +2,29 @@
 <html lang="zh-tw">
 
 <head>
+    <title>訂餐系統 - 關於</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>訂餐系統 - 關於</title>
     <!-- 連結Bootstrap.min.css -->
     <link rel="stylesheet" type='text/css' href="../assets/css/bootstrap.css" charset="UTF-8">
     <!-- 使用style.css -->
     <link rel="stylesheet" type='text/css' href="../assets/css/style.css" charset="UTF-8">
     <!-- 使用 material icons community-->
-    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.0.96/css/materialdesignicons.min.css"
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.7.95/css/materialdesignicons.min.css"
         crossorigin="anonymous">
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Rubik&display=swap" rel="stylesheet">
-    <!-- 連結Bootstrap所需要的js -->
     <!-- jquery.min.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- popper.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <!-- datepicker -->
+    <!-- <script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js" type="text/javascript"></script> -->
     <!-- bootstrap.min.js -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
@@ -27,6 +34,14 @@
     <!-- 連結網頁主程式 -->
     <script src="../assets/js/main.js"></script>
 </head>
+
+<style>
+    *::selection {
+        background: var(--info);
+        color: white;
+        transition: all .1s ease;
+    }
+</style>
 
 <body id="body" class="bg-light">
     <nav id="navbar" class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
@@ -44,9 +59,9 @@
         </div>
     </nav>
 
-    <div class="bg-light about-header">
+    <div class="bg-light pb-3 px-2 pt-5">
         <div class="container">
-            <h1 class="my-5 decor-title-info text-dark">關於開發者及系統</h1>
+            <h3 class="text-dark"><span class="mdi mdi-information text-info"></span> 關於開發者及系統</h3>
         </div>
     </div>
 

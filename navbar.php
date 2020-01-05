@@ -12,7 +12,7 @@
         </ul>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link px-3" href="cart.html"><span class="mdi mdi-cart-outline"></span> 購物車</a>
+                <a class="nav-link px-3" href="../dishes/cart.php"><span class="mdi mdi-cart-outline"></span> 購物車</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link px-3" data-toggle="dropdown" href="#"><span
